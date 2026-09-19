@@ -1,0 +1,19 @@
+{
+  "retrievedAt": "2026-09-19T22:17:43.581151+00:00",
+  "bbox": [
+    -122.25,
+    47.45,
+    -121.85,
+    47.78
+  ],
+  "siteFilter": "WRIANumber=8",
+  "services": {
+    "sites": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer",
+    "streams": "https://services.arcgis.com/Ej0PsM5Aw677QF1W/arcgis/rest/services/WTRCRS_LINE_176/FeatureServer/0",
+    "coho": "https://services.arcgis.com/Ej0PsM5Aw677QF1W/arcgis/rest/services/FP_COHOINTRINSICPOTENTIAL_LINE_2880/FeatureServer/0",
+    "county-sites": "https://services.arcgis.com/Ej0PsM5Aw677QF1W/arcgis/rest/services/FP_FISHPASSAGESITES_POINT_2879/FeatureServer/0",
+    "impaired": "https://services.arcgis.com/6lCKYNJLvwTXqrmp/arcgis/rest/services/WQ/FeatureServer/4"
+  },
+  "errors": {},
+  "note": "Other layers are bbox clips, not a WRIA boundary clip. Failed refreshes preserve existing snapshots."
+}

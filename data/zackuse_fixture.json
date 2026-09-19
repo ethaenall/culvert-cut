@@ -1,0 +1,18 @@
+{
+  "id": "920121",
+  "stream": "Zackuse Cr",
+  "status": "total",
+  "feature": "Culvert",
+  "fishUse": "Yes",
+  "owner": "City",
+  "wria": 8,
+  "road": "206th Ave NE",
+  "survey": "04/29/2019",
+  "access": "Unknown \u2014 no network join",
+  "impairment": "Unknown \u2014 no spatial join",
+  "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/920121_Report.pdf",
+  "coordinates": [
+    -122.065651,
+    47.610204
+  ]
+}

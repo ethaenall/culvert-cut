@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+.env
+adapter/*
+!adapter/.gitkeep
+training-output/
+*.tsbuildinfo
+
+test-results/
+playwright-report/

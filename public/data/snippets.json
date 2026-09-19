@@ -1,0 +1,508 @@
+[
+  {
+    "id": "WDFW 2019 \u2022 assessment",
+    "title": "What is a passage barrier?",
+    "text": "Total and partial passage classifications describe assessed obstruction at a structure; passability is not proof of access through the whole stream network.",
+    "url": "https://wdfw.wa.gov/publications/02061",
+    "keywords": [
+      "total",
+      "partial",
+      "passable",
+      "definition",
+      "barrier"
+    ]
+  },
+  {
+    "id": "WDFW 2019 \u2022 habitat survey",
+    "title": "Habitat is not connectivity",
+    "text": "Upstream habitat gain requires habitat survey and fish-access information; a single crossing record cannot establish that coho or kokanee can reach all habitat above it.",
+    "url": "https://wdfw.wa.gov/publications/02061",
+    "keywords": [
+      "habitat",
+      "above",
+      "access",
+      "gain",
+      "coho",
+      "kokanee"
+    ]
+  },
+  {
+    "id": "Ecology \u2022 6PPD",
+    "title": "First rain, road runoff",
+    "text": "6PPD-quinone from tire wear is toxic to coho at very low concentrations; the first-flush banner is a rain-and-dry-days demo heuristic, not a chemical measurement.",
+    "url": "https://ecology.wa.gov/waste-toxics/reducing-toxic-chemicals/reducing-toxic-chemicals-washington/6ppd",
+    "keywords": [
+      "first",
+      "rain",
+      "6ppd",
+      "flush",
+      "tire",
+      "storm"
+    ]
+  },
+  {
+    "id": "WRIA 8 \u2022 2025 progress",
+    "title": "Room for more shade",
+    "text": "The WRIA 8 2025 progress report records 28.6 acres of Sammamish River riparian planting against a 69-acre goal, about 41 percent.",
+    "url": "https://govlink.org/watersheds/8/reports/WRIA82025ProgressReport.pdf",
+    "keywords": [
+      "shade",
+      "riparian",
+      "plant",
+      "goal"
+    ]
+  },
+  {
+    "id": "Sammamish \u2022 Zackuse restoration",
+    "title": "A return route for kokanee",
+    "text": "The City of Sammamish describes Zackuse Creek fish-passage and stream restoration as work to improve native kokanee spawning habitat.",
+    "url": "https://www.sammamish.us/projects/zacuse-creek-fish-passage-restoration/",
+    "keywords": [
+      "zackuse",
+      "restoration"
+    ]
+  },
+  {
+    "id": "King County \u2022 2018 kokanee",
+    "title": "A historical warning",
+    "text": "Fewer than 20 kokanee returned in the 2017\u201318 winter run; this is historical context, not a current population estimate.",
+    "url": "https://kcemployees.com/2018/05/11/taking-emergency-action-to-prevent-the-possible-extinction-of-native-kokanee-salmon/",
+    "keywords": [
+      "crisis",
+      "winter",
+      "2018",
+      "population"
+    ]
+  },
+  {
+    "id": "King County \u2022 6PPD sampling",
+    "title": "Sampling, not a sensor",
+    "text": "King County documents 6PPD-quinone sampling context at the Sammamish River near SR 522 and I-405; this app provides no live chemistry readings.",
+    "url": "https://your.kingcounty.gov/dnrp/library/2024/kcr3832/kcr3832.pdf",
+    "keywords": [
+      "sampling",
+      "405",
+      "chemistry"
+    ]
+  },
+  {
+    "id": "303(d) 15753",
+    "title": "LAKE SAMMAMISH \u2022 Dissolved Oxygen",
+    "text": "Ecology listing 15753 identifies LAKE SAMMAMISH for Dissolved Oxygen in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 41135",
+    "title": "SAMMAMISH RIVER \u2022 Temperature",
+    "text": "Ecology listing 41135 identifies SAMMAMISH RIVER for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 10646",
+    "title": "SAMMAMISH RIVER \u2022 Dissolved Oxygen",
+    "text": "Ecology listing 10646 identifies SAMMAMISH RIVER for Dissolved Oxygen in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 103921",
+    "title": "UNNAMED CREEK (5050 AT W LAKE SAMMAMISH PKWY) \u2022 Temperature",
+    "text": "Ecology listing 103921 identifies UNNAMED CREEK (5050 AT W LAKE SAMMAMISH PKWY) for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 102731",
+    "title": "UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) \u2022 Dissolved Oxygen",
+    "text": "Ecology listing 102731 identifies UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) for Dissolved Oxygen in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 12676",
+    "title": "SAMMAMISH RIVER \u2022 Dissolved Oxygen",
+    "text": "Ecology listing 12676 identifies SAMMAMISH RIVER for Dissolved Oxygen in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 78044",
+    "title": "UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) \u2022 Dissolved Oxygen",
+    "text": "Ecology listing 78044 identifies UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) for Dissolved Oxygen in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 104325",
+    "title": "UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) \u2022 Temperature",
+    "text": "Ecology listing 104325 identifies UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 41131",
+    "title": "SAMMAMISH RIVER \u2022 Temperature",
+    "text": "Ecology listing 41131 identifies SAMMAMISH RIVER for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 48013",
+    "title": "SAMMAMISH RIVER \u2022 Dissolved Oxygen",
+    "text": "Ecology listing 48013 identifies SAMMAMISH RIVER for Dissolved Oxygen in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 103984",
+    "title": "UNNAMED DITCH (TRIB TO SAMMAMISH RIVER) \u2022 Temperature",
+    "text": "Ecology listing 103984 identifies UNNAMED DITCH (TRIB TO SAMMAMISH RIVER) for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 103988",
+    "title": "UNNAMED DITCH (TRIB TO SAMMAMISH RIVER) \u2022 Temperature",
+    "text": "Ecology listing 103988 identifies UNNAMED DITCH (TRIB TO SAMMAMISH RIVER) for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 102708",
+    "title": "SAMMAMISH RIVER \u2022 Dissolved Oxygen",
+    "text": "Ecology listing 102708 identifies SAMMAMISH RIVER for Dissolved Oxygen in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 103913",
+    "title": "UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) \u2022 Temperature",
+    "text": "Ecology listing 103913 identifies UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 4805",
+    "title": "SAMMAMISH RIVER \u2022 Temperature",
+    "text": "Ecology listing 4805 identifies SAMMAMISH RIVER for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 12670",
+    "title": "SAMMAMISH RIVER \u2022 Dissolved Oxygen",
+    "text": "Ecology listing 12670 identifies SAMMAMISH RIVER for Dissolved Oxygen in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 104026",
+    "title": "UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) \u2022 Temperature",
+    "text": "Ecology listing 104026 identifies UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 48012",
+    "title": "SAMMAMISH RIVER \u2022 Dissolved Oxygen",
+    "text": "Ecology listing 48012 identifies SAMMAMISH RIVER for Dissolved Oxygen in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 72568",
+    "title": "SAMMAMISH RIVER \u2022 Temperature",
+    "text": "Ecology listing 72568 identifies SAMMAMISH RIVER for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 72579",
+    "title": "SAMMAMISH RIVER \u2022 Temperature",
+    "text": "Ecology listing 72579 identifies SAMMAMISH RIVER for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 78030",
+    "title": "SAMMAMISH RIVER \u2022 Dissolved Oxygen",
+    "text": "Ecology listing 78030 identifies SAMMAMISH RIVER for Dissolved Oxygen in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 103973",
+    "title": "UNNAMED DITCH (TRIB TO SAMMAMISH RIVER) \u2022 Temperature",
+    "text": "Ecology listing 103973 identifies UNNAMED DITCH (TRIB TO SAMMAMISH RIVER) for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 104021",
+    "title": "UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) \u2022 Temperature",
+    "text": "Ecology listing 104021 identifies UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 41134",
+    "title": "SAMMAMISH RIVER \u2022 Temperature",
+    "text": "Ecology listing 41134 identifies SAMMAMISH RIVER for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 10647",
+    "title": "SAMMAMISH RIVER \u2022 Temperature",
+    "text": "Ecology listing 10647 identifies SAMMAMISH RIVER for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 103926",
+    "title": "UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) \u2022 Temperature",
+    "text": "Ecology listing 103926 identifies UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 103890",
+    "title": "UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) \u2022 Temperature",
+    "text": "Ecology listing 103890 identifies UNNAMED CREEK (TRIB TO SAMMAMISH RIVER) for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 7028",
+    "title": "SAMMAMISH RIVER \u2022 Temperature",
+    "text": "Ecology listing 7028 identifies SAMMAMISH RIVER for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 42085",
+    "title": "SAMMAMISH RIVER \u2022 Dissolved Oxygen",
+    "text": "Ecology listing 42085 identifies SAMMAMISH RIVER for Dissolved Oxygen in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  },
+  {
+    "id": "303(d) 104240",
+    "title": "UNNAMED CREEK (5050 AT W LAKE SAMMAMISH PKWY) \u2022 Temperature",
+    "text": "Ecology listing 104240 identifies UNNAMED CREEK (5050 AT W LAKE SAMMAMISH PKWY) for Temperature in category 5; this assessment is not a live water-quality reading or a verified join to a selected crossing.",
+    "url": "https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx",
+    "keywords": [
+      "303",
+      "temperature",
+      "oxygen",
+      "heat",
+      "impaired",
+      "sammamish river"
+    ]
+  }
+]
