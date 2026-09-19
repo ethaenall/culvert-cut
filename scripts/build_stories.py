@@ -14,7 +14,7 @@ snippets=[
 for f in json.loads((P/'impaired.geojson').read_text())['features']:
  p=f['properties']
  if 'sammamish' in str(p.get('ListingWaterbodyName','')).lower() and any(t in str(p.get('ParameterName','')).lower() for t in ['temperature','oxygen']):
-  snippets.append(dict(id='303(d) '+str(p['ListingNumber']),title=p['ListingWaterbodyName']+' • '+p['ParameterName'],text=f"Ecology listing {p['ListingNumber']} identifies {p['ListingWaterbodyName']} for {p['ParameterName']} in category {p['CategoryCode']}; this assessment is not a live water-quality reading or a verified join to a selected crossing.",url='https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx',keywords=['303','temperature','oxygen','heat','impaired','sammamish river']))
+  snippets.append(dict(id='303(d) '+str(p['ListingNumber']),title=p['ListingWaterbodyName']+' • '+p['ParameterName'],text=f"Ecology listing {p['ListingNumber']} identifies {p['ListingWaterbodyName']} for {p['ParameterName']} in category {p['CategoryCode']}; this assessment is not a live water-quality reading or a verified join to a selected crossing.",url='https://apps.ecology.wa.gov/ApprovedWQA/ApprovedPages/ApprovedSearch.aspx',keywords=['303','impaired',p['ListingWaterbodyName'].lower(),p['ParameterName'].lower()]+(['heat'] if 'temperature' in p['ParameterName'].lower() else ['oxygen'])))
 (P/'snippets.json').write_text(json.dumps(snippets,indent=2))
 def match(fn):return next((s for s in sites if fn(s['properties'])),None)
 def record(title,desc,fn,tag='Inventory story'):

@@ -2,6 +2,8 @@
 
 **Follow the water.** A WRIA 8 map of real fish-passage barriers, habitat-access context, and water-quality assessments, with a tiny local specialist training pipeline and citation-backed explanations.
 
+[Live demo](https://ethaenall.github.io/culvert-cut/) · [Public repository](https://github.com/ethaenall/culvert-cut)
+
 Built for NextStep Hacks 2026 — Earth Forward. A new project scoped as a 20-hour student build. No prize, eligibility, or measured restoration outcome is claimed.
 
 ## Run the working demo

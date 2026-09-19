@@ -109,3 +109,8 @@ test("heldout identifiers absent from training context", () => {
     );
   }
 });
+
+test('temperature question ranks river temperature above lake oxygen', () => {
+  const r = retrieve('Sammamish River temperature', sites, snippets);
+  assert.match(r.snippets[0].title, /SAMMAMISH RIVER.*Temperature/);
+});
