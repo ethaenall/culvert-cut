@@ -20,7 +20,10 @@ def retrieve(question,requested):
   ids={str(s.get('properties',{}).get('id')) for s in requested.get('sites',[]) if isinstance(s,dict)}
   sites=([s for s in SITES if s['id'] in ids]+sites)[:3]
  snippets=sorted(((sum(k in question.lower() for k in s['keywords']),s) for s in SNIPPETS),key=lambda x:x[0],reverse=True)
- return sites,[s for n,s in snippets if n][:2]
+ docs=[s for n,s in snippets if n][:2]
+ if docs and re.search(r'temperature|oxygen|6ppd|rain|flush|riparian|303|impaired',question,re.I) and not re.search(r'\b(this|selected)\b',question,re.I):
+  sites=[s for s in sites if s['id'].lower() in re.findall(r'[a-z0-9]+',question.lower())]
+ return sites,docs
 def supported(sites,snippets):
  result=[]
  for s in sites:

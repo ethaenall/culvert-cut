@@ -103,7 +103,7 @@ export function retrieve(
     "site",
   ]);
   const terms = words.filter((w) => !stop.has(w));
-  const ranked = sites
+  let ranked = sites
     .map((s) => ({
       s,
       score: terms.reduce(
@@ -131,6 +131,10 @@ export function retrieve(
     .sort((a, b) => b.score - a.score)
     .slice(0, 2)
     .map((x) => x.s);
+  // Basin-wide environmental questions should not pull in unrelated road-name matches.
+  if (docs.length && /temperature|oxygen|6ppd|rain|flush|riparian|303|impaired/i.test(q)) {
+    ranked = ranked.filter((s) => words.includes(s.properties.id.toLowerCase()));
+  }
   if (
     selected &&
     /\b(this|selected)\b/i.test(q) &&
