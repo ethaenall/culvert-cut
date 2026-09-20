@@ -101,6 +101,14 @@ export function retrieve(
     "does",
     "why",
     "site",
+    "explain",
+    "creek",
+    "cr",
+    "river",
+    "stream",
+    "crossing",
+    "barrier",
+    "",
   ]);
   const terms = words.filter((w) => !stop.has(w));
   let ranked = sites
@@ -109,12 +117,9 @@ export function retrieve(
       score: terms.reduce(
         (n, w) =>
           n +
-          (`${s.properties.id} ${s.properties.stream} ${s.properties.road}`
-            .toLowerCase()
-            .split(/[^a-z0-9]+/)
-            .includes(w)
-            ? 1
-            : 0),
+          (s.properties.id.toLowerCase() === w ? 10 : 0) +
+          (s.properties.stream.toLowerCase().split(/[^a-z0-9]+/).includes(w) ? 3 : 0) +
+          (s.properties.road.toLowerCase().split(/[^a-z0-9]+/).includes(w) ? 1 : 0),
         0,
       ),
     }))

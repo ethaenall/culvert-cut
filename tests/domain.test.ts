@@ -115,3 +115,9 @@ test('temperature question ranks river temperature above lake oxygen', () => {
   assert.match(r.snippets[0].title, /SAMMAMISH RIVER.*Temperature/);
   assert.equal(r.sites.length, 0);
 });
+
+test('named creek retrieval is not diluted by generic creek road matches', () => {
+  const result = retrieve('Explain Zackuse Creek', sites, snippets);
+  assert.ok(result.sites.length > 0);
+  assert.ok(result.sites.every(s => /zackuse/i.test(`${s.properties.stream} ${s.properties.road}`)));
+});

@@ -1,11 +1,22 @@
 """Local PEFT LoRA SFT. No hosted inference APIs. Python 3.11+."""
-import argparse,json,os
+import argparse,json,os,platform,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
 def main():
- p=argparse.ArgumentParser();p.add_argument('--epochs',type=int,choices=[1,2,3],default=2);p.add_argument('--cpu',action='store_true',help='Explicit 200-step CPU training; otherwise skip when CUDA is absent');p.add_argument('--max-steps',type=int,default=None);p.add_argument('--skip',action='store_true');args=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--epochs',type=int,choices=[1,2,3],default=2);p.add_argument('--cpu',action='store_true',help='Explicit 200-step CPU training; otherwise skip when CUDA is absent');p.add_argument('--max-steps',type=int,default=None);p.add_argument('--skip',action='store_true');p.add_argument('--backend',choices=['auto','mlx','peft'],default='auto');args=p.parse_args()
  if args.skip:
   print('RAG-only mode selected; no adapter trained.');return
+ if args.backend=='mlx' or (args.backend=='auto' and platform.system()=='Darwin' and platform.machine()=='arm64' and not args.cpu):
+  cmd=[sys.executable,'-m','mlx_lm','lora','--config',str(ROOT/'scripts/mlx_config.yaml')]
+  if os.getenv('MODEL_NAME'):cmd.extend(['--model',os.environ['MODEL_NAME']])
+  if args.max_steps is not None:cmd.extend(['--iters',str(args.max_steps)])
+  log=ROOT/'data/specialist/training_log.txt';log.parent.mkdir(parents=True,exist_ok=True)
+  with log.open('w') as out:
+   process=subprocess.Popen(cmd,cwd=ROOT,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,bufsize=1)
+   for line in process.stdout:print(line,end='',flush=True);out.write(line);out.flush()
+   if process.wait():raise subprocess.CalledProcessError(process.returncode,cmd)
+  from scripts.training_metadata import record
+  record(log);return
  import torch
  if not torch.cuda.is_available() and not args.cpu:
   print('No CUDA: RAG-only mode. App remains fully functional. Use --cpu for a 200-step LoRA run.');return

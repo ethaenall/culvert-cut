@@ -1,0 +1,13 @@
+{
+  "trainPairs": 3078,
+  "validationPairs": 80,
+  "testCases": 120,
+  "testSites": 40,
+  "validationSites": 20,
+  "version": 2,
+  "developmentSitesExcluded": 40,
+  "split": "SHA256 Site ID ordering; first 40 previous experiment sites are development-only and excluded; next 20 validation sites; next 40 fresh test sites; training starts at index 100",
+  "labelMethod": "Programmatic field comparison and explicit missing-evidence rules. Not expert-reviewed. Fresh test sites after inspecting v1 errors; test uses distinct wording but related task families.",
+  "system": "You are Culvert Cut, a WRIA 8 fish-passage explainer. Use ONLY the Context. Never invent a Site ID, coordinate, owner, or barrier status. If Context is missing the answer, say you don't know and point at WDFW. Cite Site ID or source name in brackets.",
+  "seed": 2026
+}

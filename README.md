@@ -1,8 +1,8 @@
 # Culvert Cut
 
-**Follow the water.** A WRIA 8 map of real fish-passage barriers, habitat-access context, and water-quality assessments, with a tiny local specialist training pipeline and citation-backed explanations.
+**Follow the water.** A WRIA 8 map of real fish-passage barriers, habitat-access context, and water-quality assessments, with a trained local specialist that tests claims against official evidence.
 
-[Live demo](https://ethaenall.github.io/culvert-cut/) · [Public repository](https://github.com/ethaenall/culvert-cut)
+[Live demo](https://ethaenall.github.io/culvert-cut/) · [Public repository](https://github.com/ethaenall/culvert-cut) · [Narrated demo](https://ethaenall.github.io/culvert-cut/demo.html)
 
 Built for NextStep Hacks 2026 — Earth Forward. A new project scoped as a 20-hour student build. No prize, eligibility, or measured restoration outcome is claimed.
 
@@ -17,10 +17,11 @@ npm run dev
 
 Open the localhost URL printed by Vite. `npm run build` creates a static `dist/` directory; `npm run preview` serves the build. No API key, account, Python, model download, or GPU is needed for the app. The included Pages workflow builds and publishes the static demo. Map tiles and optional fonts require internet; the bundled records, filters, drawer, and Ask work without external data APIs. Use “Browse records” if WebGL or tiles are unavailable. This is not a service-worker offline app.
 
-![Culvert Cut basin map](docs/overview.png)
+![Culvert Cut Evidence lab](docs/evidence-lab.png)
 
 ## What it does
 
+- Evidence lab: challenge a claim, inspect actual base/adapter outputs, and copy a source-linked question for public works. All 120 trials are available.
 - MapLibre map centered on Sammamish, Issaquah, and Redmond, with official streams and 1,931 real WDFW WRIA 8 site records.
 - Total / partial / passable / unknown symbols with both color and shape. Filters intersect; near-me searches within 5 km, falling back to Sammamish City Hall (47.6163, -122.0356).
 - King County coho intrinsic potential and current anadromous access overlay, plus Ecology 303(d) assessment geometry. Potential habitat is distinct from species observations.
@@ -29,6 +30,16 @@ Open the localhost URL printed by Vite. `npm run build` creates a static `dist/`
 - Local-only photo queue using browser localStorage. Images must be under 1.5 MB; clear the queue from the drawer. No submission endpoint exists.
 - Ask retrieves up to three site records and two source snippets, then renders grounded statements with source chips. Empty retrieval refuses. Optional local model output passes an extractive allowlist gate before display.
 - Demo first-flush advisory: `rain in next 24h AND dry days >= 5`. Demo rain toggles the first input; the canned climate state has six dry days. No live forecast or chemistry is fetched.
+
+## A one-minute walkthrough
+
+1. Open the Evidence lab and read the claim beside its official record.
+2. Choose **Not established** on the upstream-access example; reveal both actual model responses.
+3. Open the unedited outputs and the experiment method. All cases, including errors, are available.
+4. Review the public-works draft: it asks for a verified network assessment and links the official crossing record.
+5. Locate the crossing on the basin map; inspect habitat and water-quality context separately.
+
+The demonstration is about moving from a local record to a defensible question. The trained model handles the language experiment; deterministic code displays official facts and prepares the resident briefing.
 
 ## Earth Forward
 
@@ -60,44 +71,67 @@ Sources for explanations:
 
 ## Specialist model: reproducible training, honest status
 
-**No adapter weights are bundled or claimed to be trained.** This machine's delivery uses the expressly supported CPU/RAG-only path. `adapter/.gitkeep` is not a trained model. The model work delivered is a domain dataset, executable LoRA training and inference code, held-out evaluator, and optional guarded API.
+**The local specialist is now trained, evaluated, and included.** The Evidence lab is the opening experience: read a claim, inspect the exact record, make your own assessment, then reveal both models' unedited outputs. All 120 cases and all four specialist verdict failures remain inspectable. The map and resident briefing workflow remain available through “Explore the basin.”
 
-The committed dataset has 3,027 train pairs and 40 validation pairs. Examples use a compact projection of actual official fields (not every raw property), source snippets, briefings, unknown/refusal cases, and same-stream contrasts. The system instruction matches the objective. Supervision is deterministic and templated, not expert annotation. The 40 held-out site IDs are excluded from every training context, including contrasts. Snapshot-derived facts should not be memorized as current conditions.
+| Measured check | Base Qwen | Culvert Cut LoRA |
+|---|---:|---:|
+| Correct claim verdicts | 40 / 120 (33.3%) | 116 / 120 (96.7%) |
+| Exact citation-array format | 0 / 120 | 120 / 120 |
+| Mean generation time in this run | 1.05 seconds | 0.62 seconds |
+
+The base returned empty arrays or source URLs rather than the requested array of Site ID strings; zero citation-format passes does **not** mean it never cited a source. Timing is a local observation, not a controlled performance benchmark. The headline score is verdict correctness, separate from formatting.
+
+The comparison uses identical retrieved context and instructions, greedy decoding, and one raw generation per case. No template repair contributes to scores. The 120 rule-labeled cases come from 40 unseen sites excluded from training and validation. Test wording differs from training, but the task families are related. These numbers do not measure every factual statement, arbitrary scientific reasoning, or environmental outcomes. All four wrong verdicts abstain on partial-versus-total passage claims; those explanations also incorrectly mention upstream classification. An earlier 0.5B experiment informed the revised training set; its test sites were excluded and forty fresh sites reserved for this final evaluation. See [MODEL_CARD.md](MODEL_CARD.md) and [all raw results](public/data/model-evaluation.json).
+
+The specialist dataset has 3,078 training pairs and 80 validation examples on a separate 20 sites. It retains domain explainers alongside supported, contradicted, and insufficient-evidence claim audits. The original 3,027-pair explainer dataset remains in `data/train.jsonl`. Both are generated from actual official records and concise source paraphrases; labels are programmatic, not expert review.
+
+### Actual training run
+
+Qwen2.5-1.5B-Instruct was fine-tuned on this Mac's Apple M5 Pro GPU using MLX LM 0.31.3. The run completed 770 steps, batch size 4, sequence limit 768, and rank-16 LoRA on q/k/v/o projections. Scale 2 is equivalent to alpha 32 divided by rank 16. Peak training memory was 11.130 GB. The 17.5 MB adapter, configuration, run metadata, and hashes are committed under `adapter/mlx/`; the training log is in `data/specialist/training_log.txt`. The base weights download from Hugging Face when first used. No external LLM inference API is called.
 
 ```sh
 python3.11 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
-python scripts/build_jsonl.py
-python train.py                       # 2 epochs on CUDA; explicit skip without CUDA
-python train.py --cpu                 # optional 200-step CPU LoRA run, potentially slow
-# MODEL_NAME=Qwen/Qwen2.5-1.5B-Instruct python train.py --epochs 1
-python eval_hallucination.py           # actual adapter if present, otherwise base
-python eval_hallucination.py --base-only
-python eval_hallucination.py --template # fast reference check; NOT an LLM evaluation
+pip install -r requirements-mlx.txt   # Apple silicon path
+python scripts/build_specialist.py
+MODEL_NAME=Qwen/Qwen2.5-1.5B-Instruct python train.py --backend mlx
+python scripts/evaluate_specialist.py --mode base
+python scripts/evaluate_specialist.py --mode adapter
+python scripts/evaluate_specialist.py --mode publish
+python eval_hallucination.py         # actual adapter: 40/40 cite IDs, zero unknown IDs
 ```
 
-Default base: `Qwen/Qwen2.5-0.5B-Instruct`. PEFT LoRA rank 16, alpha 32, q/k/v/o projections; TRL SFTTrainer; maximum sequence length 768; completion-only loss; 1–3 epochs. CPU uses float32. Training saves to `adapter/`, with run metadata. Qwen weights are downloaded from Hugging Face only when running the Python model path; no hosted LLM inference is called. Verify model licensing before redistribution. Requirements constrain compatible API families; the heavy ML environment and actual training were not executed during delivery.
+The separate 40-site explanation check passed with no invented identifiers or missing expected citations. It does not validate every explanation. Unknown IDs are detected with a limited regex; arbitrary ID formats and uncited factual errors need broader review.
 
-The identifier evaluator retains raw outputs for 40 held-out sites and fails on unknown emitted IDs or missing expected citations. It handles exact official IDs containing spaces, prefixed IDs, bracket IDs, and suspicious bare six-digit IDs. Regex coverage is not a formal guarantee: arbitrary identifier formats, owner hallucinations, incorrect coordinates, and biological reasoning need additional factual evaluation. The template reference passed 40/40 with zero unknown IDs and zero missing citations; this is not a base/adapter score.
+For NVIDIA CUDA or a CPU fallback, use a separate Python environment installed from `requirements.txt`, then `python train.py --backend peft`. The original PEFT LoRA + TRL SFTTrainer implementation remains available, with a default two epochs and a 200-step explicit `--cpu` route. MLX and PEFT adapter formats are separate and must not be interchanged. `MODEL_NAME` overrides the base for either training backend. The training default remains 0.5B per the original brief; the command above explicitly reproduces the final 1.5B run. Inference and evaluation read the actual base from the bundled adapter configuration.
+
+### Run live local claims
+
+After installing the MLX requirements into `.venv`, `npm run dev:local` starts the app and model API together. Alternatively, use two terminals:
 
 ```sh
-python infer.py --context data/zackuse_fixture.json --question 'Explain this crossing.'
+# Terminal one
+npm run dev
+# Terminal two, with the MLX environment active
 uvicorn server:app --host 127.0.0.1 --port 8000
 ```
 
-In Vite, enable “Use optional local model.” Vite proxies `/api` to loopback. Static deployments remain templates unless separately configured with a trusted API. The server re-retrieves canonical local records, never trusts client-supplied factual fields, refuses empty context, and displays only exact supported sentences with matching citations. All other model wording falls back to templates. Greedy inference has no stochastic sampling (effectively temperature zero). Run one local worker because model access is serialized.
+Open “Run a new claim” in the Evidence lab, select any official Site ID, and type a claim. `/api/audit` retrieves the canonical record, runs the actual adapter, and returns raw output, parsed verdict, citation-format status, and elapsed time. It never trusts factual fields submitted by the browser. Structure/citation checks do not certify the interpretation; inspect the source beside the response.
 
-### Video comparison fixture: Zackuse Site 920121
+The public GitHub Pages deployment is static: its evidence trials are **recorded actual model runs**, explicitly labeled, not live inference. New live claims require the local service. The conventional Ask tab retains reliable templates and its optional local model route with an extractive output gate. Those gated responses do not contribute to the model benchmark.
 
-Same input: “Explain this site and whether kokanee can reach habitat above it.”
+### Zackuse comparison and submission
 
-| Base model | Adapter / grounded target |
+`data/comparison_actual.json` contains actual base/adapter responses on the same Zackuse Site 920121 context. That showcase site is not claimed to be held out. Recreate it with `python scripts/capture_comparison.py`. The Evidence lab's scored comparison instead uses the full held-out benchmark.
+
+On Zackuse Site 920121, both models received the claim “Fish can reach all habitat upstream of this crossing” and the same official snapshot:
+
+| Actual base response | Actual trained response |
 |---|---|
-| **Not measured.** Do not narrate an invented rambling answer as a model result. | **Adapter not trained.** The running template says Site 920121 is total on Zackuse Cr and upstream species access is not verified. |
-| Illustrative failure mode: unsupported claims that every kokanee can reach habitat after fixing one crossing. This is an authored anti-example, not generated output. | Expected behavior: cite 920121, explain the recorded status, and refuse the unsupported connectivity inference. This is a target, not a measured adapter output. |
+| **Supported — incorrect.** “The inventory snapshot shows a culvert crossing the Zackuse Cr stream, which is consistent with the claim that fish can reach all habitat upstream of this crossing.” | **Insufficient.** “The snapshot has no verified upstream connectivity assessment.” |
+| Empty citation array | `["920121"]` |
 
-After training, run `python scripts/compare_models.py`. It records actual base and adapter responses on the identical Zackuse context in `data/comparison_actual.json` and refuses to run without an adapter. Show the real outputs only after reviewing them. No performance improvement is claimed in the supplied video script.
+This is a disclosed showcase example, not an additional benchmark score. The source lists a total barrier; it provides no verified whole-network assessment. Full unedited JSON is in the comparison artifact above.
 
 ## What is mocked or incomplete
 
@@ -113,7 +147,7 @@ MapLibre makes the JS bundle relatively large; OpenStreetMap public raster tiles
 
 **Before:** no project source, dataset, app, or model work existed in this repository.
 
-**During:** app implementation, official snapshots, normalization, story/source curation, 3,027-pair dataset, training/inference/evaluation scripts, checks, and submission drafts were created for this build. AI-assisted implementation must be disclosed according to the event's rules. The repository does not assert that any particular student personally completed every step.
+**During:** app implementation, official snapshots, normalization, story/source curation, both domain datasets, actual Apple-GPU adapter training, raw paired evaluation, checks, and submission materials were created for this build. AI-assisted implementation must be disclosed according to the event's rules. The repository does not assert that any particular student personally completed every step.
 
 ## Validation
 
@@ -128,6 +162,6 @@ npm run dev
 npx playwright test
 ```
 
-Checks cover filter intersections, near-me distances, empty retrieval, citations, first-flush boundary conditions, three-sentence briefings, disjoint train/validation contexts, model-ID guard behavior, and desktop/mobile browser interactions. No LLM-training result is substituted for an unrun evaluation.
+Checks cover filter intersections, near-me distances, empty retrieval, citations, first-flush boundary conditions, three-sentence briefings, disjoint train/validation contexts, model-ID guard behavior, and desktop/mobile browser interactions. The published specialist result comes from actual local training and raw paired evaluation.
 
-Submission materials: `DEVPOST.md` and `VIDEO_SCRIPT.md`. The video script is about three minutes; an actual recording is still a submission step. The deadline from the brief is September 20, 2026, 2:00 pm PDT.
+Submission materials: `DEVPOST.md` and `VIDEO_SCRIPT.md`. The included narrated demo is approximately three minutes; synthetic narration is disclosed in the script. The deadline from the brief is September 20, 2026, 2:00 pm PDT.

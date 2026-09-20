@@ -1,0 +1,4082 @@
+[
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"partial\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "936219"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "936219",
+      "stream": "May Cr",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "driveway; SR 900",
+      "survey": "04/12/2023",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/936219_Report.pdf",
+      "coordinates": [
+        -122.084435,
+        47.510786
+      ]
+    },
+    "id": "audit-001",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"partial\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says partial, not total.",
+      "citations": [
+        "936219"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "936219",
+      "stream": "May Cr",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "driveway; SR 900",
+      "survey": "04/12/2023",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/936219_Report.pdf",
+      "coordinates": [
+        -122.084435,
+        47.510786
+      ]
+    },
+    "id": "audit-002",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "connectivity",
+    "claim": "From this record alone, we know all upstream spawning grounds are accessible.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "936219"
+      ]
+    },
+    "evidenceFields": [
+      "access"
+    ],
+    "site": {
+      "id": "936219",
+      "stream": "May Cr",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "driveway; SR 900",
+      "survey": "04/12/2023",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/936219_Report.pdf",
+      "coordinates": [
+        -122.084435,
+        47.510786
+      ]
+    },
+    "id": "audit-003",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: From this record alone, we know all upstream spawning grounds are accessible."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "606845"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "606845",
+      "stream": "Sammamish R",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Sammamish River Trl",
+      "survey": "12/09/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606845_Report.pdf",
+      "coordinates": [
+        -122.206842,
+        47.757752
+      ]
+    },
+    "id": "audit-004",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "606845"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "606845",
+      "stream": "Sammamish R",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Sammamish River Trl",
+      "survey": "12/09/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606845_Report.pdf",
+      "coordinates": [
+        -122.206842,
+        47.757752
+      ]
+    },
+    "id": "audit-005",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "observation",
+    "claim": "The survey includes an eyewitness observation of fish at the crossing.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "606845"
+      ]
+    },
+    "evidenceFields": [
+      "fishUse"
+    ],
+    "site": {
+      "id": "606845",
+      "stream": "Sammamish R",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Sammamish River Trl",
+      "survey": "12/09/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606845_Report.pdf",
+      "coordinates": [
+        -122.206842,
+        47.757752
+      ]
+    },
+    "id": "audit-006",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The survey includes an eyewitness observation of fish at the crossing."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "602419"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "602419",
+      "stream": "Kelsey Cr",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "NE 14th St",
+      "survey": "07/30/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/602419_Report.pdf",
+      "coordinates": [
+        -122.157545,
+        47.622382
+      ]
+    },
+    "id": "audit-007",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "602419"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "602419",
+      "stream": "Kelsey Cr",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "NE 14th St",
+      "survey": "07/30/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/602419_Report.pdf",
+      "coordinates": [
+        -122.157545,
+        47.622382
+      ]
+    },
+    "id": "audit-008",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "chemistry",
+    "claim": "The evidence contains a present-day measurement of toxic tire pollution at the site.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "602419"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "602419",
+      "stream": "Kelsey Cr",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "NE 14th St",
+      "survey": "07/30/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/602419_Report.pdf",
+      "coordinates": [
+        -122.157545,
+        47.622382
+      ]
+    },
+    "id": "audit-009",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The evidence contains a present-day measurement of toxic tire pollution at the site."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"partial\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "132161502"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "132161502",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "private; Tiger Mountain R",
+      "survey": "09/16/2016",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/132161502_Report.pdf",
+      "coordinates": [
+        -122.014783,
+        47.475057
+      ]
+    },
+    "id": "audit-010",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"partial\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says partial, not total.",
+      "citations": [
+        "132161502"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "132161502",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "private; Tiger Mountain R",
+      "survey": "09/16/2016",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/132161502_Report.pdf",
+      "coordinates": [
+        -122.014783,
+        47.475057
+      ]
+    },
+    "id": "audit-011",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "impaired",
+    "claim": "This site's overlap with a temperature-impaired listing has been confirmed.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "132161502"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "132161502",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "private; Tiger Mountain R",
+      "survey": "09/16/2016",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/132161502_Report.pdf",
+      "coordinates": [
+        -122.014783,
+        47.475057
+      ]
+    },
+    "id": "audit-012",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This site's overlap with a temperature-impaired listing has been confirmed."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "08.0259   0.00"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "08.0259   0.00",
+      "stream": "Kelsey Cr",
+      "status": "passable",
+      "feature": "Fishway, Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "118th Ave",
+      "survey": "04/07/2015",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/08.0259%20%20%200.00_Report.pdf",
+      "coordinates": [
+        -122.184425,
+        47.601732
+      ]
+    },
+    "id": "audit-013",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "08.0259   0.00"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "08.0259   0.00",
+      "stream": "Kelsey Cr",
+      "status": "passable",
+      "feature": "Fishway, Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "118th Ave",
+      "survey": "04/07/2015",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/08.0259%20%20%200.00_Report.pdf",
+      "coordinates": [
+        -122.184425,
+        47.601732
+      ]
+    },
+    "id": "audit-014",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "connectivity",
+    "claim": "From this record alone, we know all upstream spawning grounds are accessible.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "08.0259   0.00"
+      ]
+    },
+    "evidenceFields": [
+      "access"
+    ],
+    "site": {
+      "id": "08.0259   0.00",
+      "stream": "Kelsey Cr",
+      "status": "passable",
+      "feature": "Fishway, Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "118th Ave",
+      "survey": "04/07/2015",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/08.0259%20%20%200.00_Report.pdf",
+      "coordinates": [
+        -122.184425,
+        47.601732
+      ]
+    },
+    "id": "audit-015",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: From this record alone, we know all upstream spawning grounds are accessible."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "983074"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "983074",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Issaquah Hobart Rd SE",
+      "survey": "05/21/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983074_Report.pdf",
+      "coordinates": [
+        -122.024839,
+        47.489447
+      ]
+    },
+    "id": "audit-016",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "983074"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "983074",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Issaquah Hobart Rd SE",
+      "survey": "05/21/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983074_Report.pdf",
+      "coordinates": [
+        -122.024839,
+        47.489447
+      ]
+    },
+    "id": "audit-017",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "observation",
+    "claim": "The survey includes an eyewitness observation of fish at the crossing.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "983074"
+      ]
+    },
+    "evidenceFields": [
+      "fishUse"
+    ],
+    "site": {
+      "id": "983074",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Issaquah Hobart Rd SE",
+      "survey": "05/21/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983074_Report.pdf",
+      "coordinates": [
+        -122.024839,
+        47.489447
+      ]
+    },
+    "id": "audit-018",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The survey includes an eyewitness observation of fish at the crossing."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"total\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "922167"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "922167",
+      "stream": "Sears Cr",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "148th Ave NE",
+      "survey": "10/11/2021",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922167_Report.pdf",
+      "coordinates": [
+        -122.143449,
+        47.625576
+      ]
+    },
+    "id": "audit-019",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"total\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "922167"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "922167",
+      "stream": "Sears Cr",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "148th Ave NE",
+      "survey": "10/11/2021",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922167_Report.pdf",
+      "coordinates": [
+        -122.143449,
+        47.625576
+      ]
+    },
+    "id": "audit-020",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "chemistry",
+    "claim": "The evidence contains a present-day measurement of toxic tire pollution at the site.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "922167"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "922167",
+      "stream": "Sears Cr",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "148th Ave NE",
+      "survey": "10/11/2021",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922167_Report.pdf",
+      "coordinates": [
+        -122.143449,
+        47.625576
+      ]
+    },
+    "id": "audit-021",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The evidence contains a present-day measurement of toxic tire pollution at the site."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "606957"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "606957",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "SE High Point Way",
+      "survey": "09/02/2020",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606957_Report.pdf",
+      "coordinates": [
+        -121.957019,
+        47.53327
+      ]
+    },
+    "id": "audit-022",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "606957"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "606957",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "SE High Point Way",
+      "survey": "09/02/2020",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606957_Report.pdf",
+      "coordinates": [
+        -121.957019,
+        47.53327
+      ]
+    },
+    "id": "audit-023",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "impaired",
+    "claim": "This site's overlap with a temperature-impaired listing has been confirmed.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "606957"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "606957",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "SE High Point Way",
+      "survey": "09/02/2020",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606957_Report.pdf",
+      "coordinates": [
+        -121.957019,
+        47.53327
+      ]
+    },
+    "id": "audit-024",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This site's overlap with a temperature-impaired listing has been confirmed."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "605607"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "605607",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "08/28/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605607_Report.pdf",
+      "coordinates": [
+        -122.121939,
+        47.515735
+      ]
+    },
+    "id": "audit-025",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "605607"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "605607",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "08/28/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605607_Report.pdf",
+      "coordinates": [
+        -122.121939,
+        47.515735
+      ]
+    },
+    "id": "audit-026",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "connectivity",
+    "claim": "From this record alone, we know all upstream spawning grounds are accessible.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "605607"
+      ]
+    },
+    "evidenceFields": [
+      "access"
+    ],
+    "site": {
+      "id": "605607",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "08/28/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605607_Report.pdf",
+      "coordinates": [
+        -122.121939,
+        47.515735
+      ]
+    },
+    "id": "audit-027",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: From this record alone, we know all upstream spawning grounds are accessible."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "605475"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "605475",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "NE 133rd St",
+      "survey": "07/17/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605475_Report.pdf",
+      "coordinates": [
+        -122.069071,
+        47.718414
+      ]
+    },
+    "id": "audit-028",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "605475"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "605475",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "NE 133rd St",
+      "survey": "07/17/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605475_Report.pdf",
+      "coordinates": [
+        -122.069071,
+        47.718414
+      ]
+    },
+    "id": "audit-029",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "observation",
+    "claim": "The survey includes an eyewitness observation of fish at the crossing.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "605475"
+      ]
+    },
+    "evidenceFields": [
+      "fishUse"
+    ],
+    "site": {
+      "id": "605475",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "NE 133rd St",
+      "survey": "07/17/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605475_Report.pdf",
+      "coordinates": [
+        -122.069071,
+        47.718414
+      ]
+    },
+    "id": "audit-030",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The survey includes an eyewitness observation of fish at the crossing."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"partial\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "934089"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "934089",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "Ripley Rd N",
+      "survey": "01/31/2017",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/934089_Report.pdf",
+      "coordinates": [
+        -122.195534,
+        47.537882
+      ]
+    },
+    "id": "audit-031",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"partial\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says partial, not total.",
+      "citations": [
+        "934089"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "934089",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "Ripley Rd N",
+      "survey": "01/31/2017",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/934089_Report.pdf",
+      "coordinates": [
+        -122.195534,
+        47.537882
+      ]
+    },
+    "id": "audit-032",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "chemistry",
+    "claim": "The evidence contains a present-day measurement of toxic tire pollution at the site.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "934089"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "934089",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "Ripley Rd N",
+      "survey": "01/31/2017",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/934089_Report.pdf",
+      "coordinates": [
+        -122.195534,
+        47.537882
+      ]
+    },
+    "id": "audit-033",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The evidence contains a present-day measurement of toxic tire pollution at the site."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "700145"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "700145",
+      "stream": "McDonald Cr",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "Other",
+      "wria": 8,
+      "road": "field; SE May Valley Rd",
+      "survey": "01/11/2017",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/700145_Report.pdf",
+      "coordinates": [
+        -122.055151,
+        47.478019
+      ]
+    },
+    "id": "audit-034",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "700145"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "700145",
+      "stream": "McDonald Cr",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "Other",
+      "wria": 8,
+      "road": "field; SE May Valley Rd",
+      "survey": "01/11/2017",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/700145_Report.pdf",
+      "coordinates": [
+        -122.055151,
+        47.478019
+      ]
+    },
+    "id": "audit-035",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "impaired",
+    "claim": "This site's overlap with a temperature-impaired listing has been confirmed.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "700145"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "700145",
+      "stream": "McDonald Cr",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "Other",
+      "wria": 8,
+      "road": "field; SE May Valley Rd",
+      "survey": "01/11/2017",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/700145_Report.pdf",
+      "coordinates": [
+        -122.055151,
+        47.478019
+      ]
+    },
+    "id": "audit-036",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This site's overlap with a temperature-impaired listing has been confirmed."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "994121"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "994121",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "07/20/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/994121_Report.pdf",
+      "coordinates": [
+        -122.204227,
+        47.642242
+      ]
+    },
+    "id": "audit-037",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "994121"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "994121",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "07/20/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/994121_Report.pdf",
+      "coordinates": [
+        -122.204227,
+        47.642242
+      ]
+    },
+    "id": "audit-038",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "connectivity",
+    "claim": "From this record alone, we know all upstream spawning grounds are accessible.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "994121"
+      ]
+    },
+    "evidenceFields": [
+      "access"
+    ],
+    "site": {
+      "id": "994121",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "07/20/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/994121_Report.pdf",
+      "coordinates": [
+        -122.204227,
+        47.642242
+      ]
+    },
+    "id": "audit-039",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: From this record alone, we know all upstream spawning grounds are accessible."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"partial\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "605083"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "605083",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "SE May Valley Rd",
+      "survey": "09/16/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605083_Report.pdf",
+      "coordinates": [
+        -122.085027,
+        47.494346
+      ]
+    },
+    "id": "audit-040",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"partial\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says partial, not total.",
+      "citations": [
+        "605083"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "605083",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "SE May Valley Rd",
+      "survey": "09/16/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605083_Report.pdf",
+      "coordinates": [
+        -122.085027,
+        47.494346
+      ]
+    },
+    "id": "audit-041",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "observation",
+    "claim": "The survey includes an eyewitness observation of fish at the crossing.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "605083"
+      ]
+    },
+    "evidenceFields": [
+      "fishUse"
+    ],
+    "site": {
+      "id": "605083",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "SE May Valley Rd",
+      "survey": "09/16/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605083_Report.pdf",
+      "coordinates": [
+        -122.085027,
+        47.494346
+      ]
+    },
+    "id": "audit-042",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The survey includes an eyewitness observation of fish at the crossing."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "982374"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "982374",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Tiger Mountain Rd SE",
+      "survey": "10/15/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/982374_Report.pdf",
+      "coordinates": [
+        -121.983862,
+        47.465256
+      ]
+    },
+    "id": "audit-043",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "982374"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "982374",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Tiger Mountain Rd SE",
+      "survey": "10/15/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/982374_Report.pdf",
+      "coordinates": [
+        -121.983862,
+        47.465256
+      ]
+    },
+    "id": "audit-044",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "chemistry",
+    "claim": "The evidence contains a present-day measurement of toxic tire pollution at the site.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "982374"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "982374",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Tiger Mountain Rd SE",
+      "survey": "10/15/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/982374_Report.pdf",
+      "coordinates": [
+        -121.983862,
+        47.465256
+      ]
+    },
+    "id": "audit-045",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The evidence contains a present-day measurement of toxic tire pollution at the site."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"unknown\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records unknown.",
+      "citations": [
+        "921603"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "921603",
+      "stream": "unnamed",
+      "status": "unknown",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "86th Ave NE",
+      "survey": "01/23/2020",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921603_Report.pdf",
+      "coordinates": [
+        -122.224565,
+        47.622004
+      ]
+    },
+    "id": "audit-046",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"unknown\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The status is unknown, so this passage classification is not established.",
+      "citations": [
+        "921603"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "921603",
+      "stream": "unnamed",
+      "status": "unknown",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "86th Ave NE",
+      "survey": "01/23/2020",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921603_Report.pdf",
+      "coordinates": [
+        -122.224565,
+        47.622004
+      ]
+    },
+    "id": "audit-047",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "impaired",
+    "claim": "This site's overlap with a temperature-impaired listing has been confirmed.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "921603"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "921603",
+      "stream": "unnamed",
+      "status": "unknown",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "86th Ave NE",
+      "survey": "01/23/2020",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921603_Report.pdf",
+      "coordinates": [
+        -122.224565,
+        47.622004
+      ]
+    },
+    "id": "audit-048",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This site's overlap with a temperature-impaired listing has been confirmed."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"total\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "935006"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "935006",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "State",
+      "wria": 8,
+      "road": "I-405; NB ROW",
+      "survey": "06/19/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935006_Report.pdf",
+      "coordinates": [
+        -122.186129,
+        47.670952
+      ]
+    },
+    "id": "audit-049",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"total\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "935006"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "935006",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "State",
+      "wria": 8,
+      "road": "I-405; NB ROW",
+      "survey": "06/19/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935006_Report.pdf",
+      "coordinates": [
+        -122.186129,
+        47.670952
+      ]
+    },
+    "id": "audit-050",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "connectivity",
+    "claim": "From this record alone, we know all upstream spawning grounds are accessible.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "935006"
+      ]
+    },
+    "evidenceFields": [
+      "access"
+    ],
+    "site": {
+      "id": "935006",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "State",
+      "wria": 8,
+      "road": "I-405; NB ROW",
+      "survey": "06/19/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935006_Report.pdf",
+      "coordinates": [
+        -122.186129,
+        47.670952
+      ]
+    },
+    "id": "audit-051",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: From this record alone, we know all upstream spawning grounds are accessible."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "920066"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "920066",
+      "stream": "Tibbetts Cr",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Newport Way NW",
+      "survey": "10/27/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/920066_Report.pdf",
+      "coordinates": [
+        -122.064152,
+        47.54166
+      ]
+    },
+    "id": "audit-052",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "920066"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "920066",
+      "stream": "Tibbetts Cr",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Newport Way NW",
+      "survey": "10/27/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/920066_Report.pdf",
+      "coordinates": [
+        -122.064152,
+        47.54166
+      ]
+    },
+    "id": "audit-053",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "observation",
+    "claim": "The survey includes an eyewitness observation of fish at the crossing.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "920066"
+      ]
+    },
+    "evidenceFields": [
+      "fishUse"
+    ],
+    "site": {
+      "id": "920066",
+      "stream": "Tibbetts Cr",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Newport Way NW",
+      "survey": "10/27/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/920066_Report.pdf",
+      "coordinates": [
+        -122.064152,
+        47.54166
+      ]
+    },
+    "id": "audit-054",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The survey includes an eyewitness observation of fish at the crossing."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"total\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "934881"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "934881",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "State",
+      "wria": 8,
+      "road": "SR 169",
+      "survey": "01/08/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/934881_Report.pdf",
+      "coordinates": [
+        -122.087698,
+        47.461802
+      ]
+    },
+    "id": "audit-055",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"total\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "934881"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "934881",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "State",
+      "wria": 8,
+      "road": "SR 169",
+      "survey": "01/08/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/934881_Report.pdf",
+      "coordinates": [
+        -122.087698,
+        47.461802
+      ]
+    },
+    "id": "audit-056",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "chemistry",
+    "claim": "The evidence contains a present-day measurement of toxic tire pollution at the site.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "934881"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "934881",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "State",
+      "wria": 8,
+      "road": "SR 169",
+      "survey": "01/08/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/934881_Report.pdf",
+      "coordinates": [
+        -122.087698,
+        47.461802
+      ]
+    },
+    "id": "audit-057",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The evidence contains a present-day measurement of toxic tire pollution at the site."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"partial\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "935942"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "935942",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "access rd; 300th Ave SE",
+      "survey": "05/16/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935942_Report.pdf",
+      "coordinates": [
+        -121.942675,
+        47.532592
+      ]
+    },
+    "id": "audit-058",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"partial\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says partial, not total.",
+      "citations": [
+        "935942"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "935942",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "access rd; 300th Ave SE",
+      "survey": "05/16/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935942_Report.pdf",
+      "coordinates": [
+        -121.942675,
+        47.532592
+      ]
+    },
+    "id": "audit-059",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "impaired",
+    "claim": "This site's overlap with a temperature-impaired listing has been confirmed.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "935942"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "935942",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "access rd; 300th Ave SE",
+      "survey": "05/16/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935942_Report.pdf",
+      "coordinates": [
+        -121.942675,
+        47.532592
+      ]
+    },
+    "id": "audit-060",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This site's overlap with a temperature-impaired listing has been confirmed."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"total\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "999602"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "999602",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Dam",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "10/17/2007",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/999602_Report.pdf",
+      "coordinates": [
+        -122.122579,
+        47.722369
+      ]
+    },
+    "id": "audit-061",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"total\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "999602"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "999602",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Dam",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "10/17/2007",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/999602_Report.pdf",
+      "coordinates": [
+        -122.122579,
+        47.722369
+      ]
+    },
+    "id": "audit-062",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "connectivity",
+    "claim": "From this record alone, we know all upstream spawning grounds are accessible.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "999602"
+      ]
+    },
+    "evidenceFields": [
+      "access"
+    ],
+    "site": {
+      "id": "999602",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Dam",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "10/17/2007",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/999602_Report.pdf",
+      "coordinates": [
+        -122.122579,
+        47.722369
+      ]
+    },
+    "id": "audit-063",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: From this record alone, we know all upstream spawning grounds are accessible."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"partial\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "610123"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "610123",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "private; 289th Pl SE",
+      "survey": "03/14/2024",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/610123_Report.pdf",
+      "coordinates": [
+        -121.95585,
+        47.530324
+      ]
+    },
+    "id": "audit-064",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"partial\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says partial, not total.",
+      "citations": [
+        "610123"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "610123",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "private; 289th Pl SE",
+      "survey": "03/14/2024",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/610123_Report.pdf",
+      "coordinates": [
+        -121.95585,
+        47.530324
+      ]
+    },
+    "id": "audit-065",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "observation",
+    "claim": "The survey includes an eyewitness observation of fish at the crossing.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "610123"
+      ]
+    },
+    "evidenceFields": [
+      "fishUse"
+    ],
+    "site": {
+      "id": "610123",
+      "stream": "unnamed",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "private; 289th Pl SE",
+      "survey": "03/14/2024",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/610123_Report.pdf",
+      "coordinates": [
+        -121.95585,
+        47.530324
+      ]
+    },
+    "id": "audit-066",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The survey includes an eyewitness observation of fish at the crossing."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"total\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "932323"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "932323",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "01/03/2013",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932323_Report.pdf",
+      "coordinates": [
+        -122.070361,
+        47.519978
+      ]
+    },
+    "id": "audit-067",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"total\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "932323"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "932323",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "01/03/2013",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932323_Report.pdf",
+      "coordinates": [
+        -122.070361,
+        47.519978
+      ]
+    },
+    "id": "audit-068",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "chemistry",
+    "claim": "The evidence contains a present-day measurement of toxic tire pollution at the site.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "932323"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "932323",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "01/03/2013",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932323_Report.pdf",
+      "coordinates": [
+        -122.070361,
+        47.519978
+      ]
+    },
+    "id": "audit-069",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The evidence contains a present-day measurement of toxic tire pollution at the site."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "983088"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "983088",
+      "stream": "McDonald Cr",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "217th Ave SE",
+      "survey": "10/06/2020",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983088_Report.pdf",
+      "coordinates": [
+        -122.051501,
+        47.477942
+      ]
+    },
+    "id": "audit-070",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "983088"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "983088",
+      "stream": "McDonald Cr",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "217th Ave SE",
+      "survey": "10/06/2020",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983088_Report.pdf",
+      "coordinates": [
+        -122.051501,
+        47.477942
+      ]
+    },
+    "id": "audit-071",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "impaired",
+    "claim": "This site's overlap with a temperature-impaired listing has been confirmed.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "983088"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "983088",
+      "stream": "McDonald Cr",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "217th Ave SE",
+      "survey": "10/06/2020",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983088_Report.pdf",
+      "coordinates": [
+        -122.051501,
+        47.477942
+      ]
+    },
+    "id": "audit-072",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This site's overlap with a temperature-impaired listing has been confirmed."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"partial\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "998054"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "998054",
+      "stream": "Peters Cr",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "private; 149th Pl NE",
+      "survey": "02/29/2016",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/998054_Report.pdf",
+      "coordinates": [
+        -122.141584,
+        47.677887
+      ]
+    },
+    "id": "audit-073",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"partial\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says partial, not total.",
+      "citations": [
+        "998054"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "998054",
+      "stream": "Peters Cr",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "private; 149th Pl NE",
+      "survey": "02/29/2016",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/998054_Report.pdf",
+      "coordinates": [
+        -122.141584,
+        47.677887
+      ]
+    },
+    "id": "audit-074",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "connectivity",
+    "claim": "From this record alone, we know all upstream spawning grounds are accessible.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "998054"
+      ]
+    },
+    "evidenceFields": [
+      "access"
+    ],
+    "site": {
+      "id": "998054",
+      "stream": "Peters Cr",
+      "status": "partial",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "private; 149th Pl NE",
+      "survey": "02/29/2016",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/998054_Report.pdf",
+      "coordinates": [
+        -122.141584,
+        47.677887
+      ]
+    },
+    "id": "audit-075",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: From this record alone, we know all upstream spawning grounds are accessible."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"total\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "932314"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "932314",
+      "stream": "High School Cr",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "NE 112th St",
+      "survey": "06/05/2012",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932314_Report.pdf",
+      "coordinates": [
+        -122.114015,
+        47.699665
+      ]
+    },
+    "id": "audit-076",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"total\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "932314"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "932314",
+      "stream": "High School Cr",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "NE 112th St",
+      "survey": "06/05/2012",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932314_Report.pdf",
+      "coordinates": [
+        -122.114015,
+        47.699665
+      ]
+    },
+    "id": "audit-077",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "observation",
+    "claim": "The survey includes an eyewitness observation of fish at the crossing.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "932314"
+      ]
+    },
+    "evidenceFields": [
+      "fishUse"
+    ],
+    "site": {
+      "id": "932314",
+      "stream": "High School Cr",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "NE 112th St",
+      "survey": "06/05/2012",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932314_Report.pdf",
+      "coordinates": [
+        -122.114015,
+        47.699665
+      ]
+    },
+    "id": "audit-078",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The survey includes an eyewitness observation of fish at the crossing."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "605718"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "605718",
+      "stream": "0276C-1",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "08/21/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605718_Report.pdf",
+      "coordinates": [
+        -122.123857,
+        47.536387
+      ]
+    },
+    "id": "audit-079",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "605718"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "605718",
+      "stream": "0276C-1",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "08/21/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605718_Report.pdf",
+      "coordinates": [
+        -122.123857,
+        47.536387
+      ]
+    },
+    "id": "audit-080",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "chemistry",
+    "claim": "The evidence contains a present-day measurement of toxic tire pollution at the site.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "605718"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "605718",
+      "stream": "0276C-1",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "08/21/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605718_Report.pdf",
+      "coordinates": [
+        -122.123857,
+        47.536387
+      ]
+    },
+    "id": "audit-081",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The evidence contains a present-day measurement of toxic tire pollution at the site."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"unknown\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records unknown.",
+      "citations": [
+        "922697"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "922697",
+      "stream": "Yarrow Cr",
+      "status": "unknown",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "NE 48th Pl",
+      "survey": "03/31/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922697_Report.pdf",
+      "coordinates": [
+        -122.18538,
+        47.652851
+      ]
+    },
+    "id": "audit-082",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"unknown\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The status is unknown, so this passage classification is not established.",
+      "citations": [
+        "922697"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "922697",
+      "stream": "Yarrow Cr",
+      "status": "unknown",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "NE 48th Pl",
+      "survey": "03/31/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922697_Report.pdf",
+      "coordinates": [
+        -122.18538,
+        47.652851
+      ]
+    },
+    "id": "audit-083",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "impaired",
+    "claim": "This site's overlap with a temperature-impaired listing has been confirmed.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "922697"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "922697",
+      "stream": "Yarrow Cr",
+      "status": "unknown",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "NE 48th Pl",
+      "survey": "03/31/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922697_Report.pdf",
+      "coordinates": [
+        -122.18538,
+        47.652851
+      ]
+    },
+    "id": "audit-084",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This site's overlap with a temperature-impaired listing has been confirmed."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "602381"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "602381",
+      "stream": "Kelcey Cr",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "05/15/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/602381_Report.pdf",
+      "coordinates": [
+        -122.162468,
+        47.607652
+      ]
+    },
+    "id": "audit-085",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "602381"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "602381",
+      "stream": "Kelcey Cr",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "05/15/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/602381_Report.pdf",
+      "coordinates": [
+        -122.162468,
+        47.607652
+      ]
+    },
+    "id": "audit-086",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "connectivity",
+    "claim": "From this record alone, we know all upstream spawning grounds are accessible.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "602381"
+      ]
+    },
+    "evidenceFields": [
+      "access"
+    ],
+    "site": {
+      "id": "602381",
+      "stream": "Kelcey Cr",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "05/15/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/602381_Report.pdf",
+      "coordinates": [
+        -122.162468,
+        47.607652
+      ]
+    },
+    "id": "audit-087",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: From this record alone, we know all upstream spawning grounds are accessible."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "605664"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "605664",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Unknown",
+      "owner": "County",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "09/05/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605664_Report.pdf",
+      "coordinates": [
+        -122.00233,
+        47.538895
+      ]
+    },
+    "id": "audit-088",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "605664"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "605664",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Unknown",
+      "owner": "County",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "09/05/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605664_Report.pdf",
+      "coordinates": [
+        -122.00233,
+        47.538895
+      ]
+    },
+    "id": "audit-089",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "observation",
+    "claim": "The survey includes an eyewitness observation of fish at the crossing.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "605664"
+      ]
+    },
+    "evidenceFields": [
+      "fishUse"
+    ],
+    "site": {
+      "id": "605664",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Unknown",
+      "owner": "County",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "09/05/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605664_Report.pdf",
+      "coordinates": [
+        -122.00233,
+        47.538895
+      ]
+    },
+    "id": "audit-090",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The survey includes an eyewitness observation of fish at the crossing."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"total\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "922791"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "922791",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Other",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "04/06/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922791_Report.pdf",
+      "coordinates": [
+        -122.151854,
+        47.540991
+      ]
+    },
+    "id": "audit-091",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"total\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "922791"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "922791",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Other",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "04/06/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922791_Report.pdf",
+      "coordinates": [
+        -122.151854,
+        47.540991
+      ]
+    },
+    "id": "audit-092",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "chemistry",
+    "claim": "The evidence contains a present-day measurement of toxic tire pollution at the site.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "922791"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "922791",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Other",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "04/06/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922791_Report.pdf",
+      "coordinates": [
+        -122.151854,
+        47.540991
+      ]
+    },
+    "id": "audit-093",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The evidence contains a present-day measurement of toxic tire pollution at the site."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "931799"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "931799",
+      "stream": "Forbes Cr",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "111th Ct NE",
+      "survey": "02/15/2011",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/931799_Report.pdf",
+      "coordinates": [
+        -122.19368,
+        47.696788
+      ]
+    },
+    "id": "audit-094",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "931799"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "931799",
+      "stream": "Forbes Cr",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "111th Ct NE",
+      "survey": "02/15/2011",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/931799_Report.pdf",
+      "coordinates": [
+        -122.19368,
+        47.696788
+      ]
+    },
+    "id": "audit-095",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "impaired",
+    "claim": "This site's overlap with a temperature-impaired listing has been confirmed.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "931799"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "931799",
+      "stream": "Forbes Cr",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "111th Ct NE",
+      "survey": "02/15/2011",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/931799_Report.pdf",
+      "coordinates": [
+        -122.19368,
+        47.696788
+      ]
+    },
+    "id": "audit-096",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This site's overlap with a temperature-impaired listing has been confirmed."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"total\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "932416"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "932416",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "120th Ave NE",
+      "survey": "08/29/2012",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932416_Report.pdf",
+      "coordinates": [
+        -122.181114,
+        47.71714
+      ]
+    },
+    "id": "audit-097",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"total\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "932416"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "932416",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "120th Ave NE",
+      "survey": "08/29/2012",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932416_Report.pdf",
+      "coordinates": [
+        -122.181114,
+        47.71714
+      ]
+    },
+    "id": "audit-098",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "connectivity",
+    "claim": "From this record alone, we know all upstream spawning grounds are accessible.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "932416"
+      ]
+    },
+    "evidenceFields": [
+      "access"
+    ],
+    "site": {
+      "id": "932416",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "120th Ave NE",
+      "survey": "08/29/2012",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932416_Report.pdf",
+      "coordinates": [
+        -122.181114,
+        47.71714
+      ]
+    },
+    "id": "audit-099",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: From this record alone, we know all upstream spawning grounds are accessible."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "921477"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "921477",
+      "stream": "Taylor Cr",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "68th Ave S",
+      "survey": "10/10/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921477_Report.pdf",
+      "coordinates": [
+        -122.248051,
+        47.508756
+      ]
+    },
+    "id": "audit-100",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "921477"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "921477",
+      "stream": "Taylor Cr",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "68th Ave S",
+      "survey": "10/10/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921477_Report.pdf",
+      "coordinates": [
+        -122.248051,
+        47.508756
+      ]
+    },
+    "id": "audit-101",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "observation",
+    "claim": "The survey includes an eyewitness observation of fish at the crossing.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "921477"
+      ]
+    },
+    "evidenceFields": [
+      "fishUse"
+    ],
+    "site": {
+      "id": "921477",
+      "stream": "Taylor Cr",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "68th Ave S",
+      "survey": "10/10/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921477_Report.pdf",
+      "coordinates": [
+        -122.248051,
+        47.508756
+      ]
+    },
+    "id": "audit-102",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The survey includes an eyewitness observation of fish at the crossing."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"total\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "922691"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "922691",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "03/29/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922691_Report.pdf",
+      "coordinates": [
+        -122.202996,
+        47.656522
+      ]
+    },
+    "id": "audit-103",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"total\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "922691"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "922691",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "03/29/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922691_Report.pdf",
+      "coordinates": [
+        -122.202996,
+        47.656522
+      ]
+    },
+    "id": "audit-104",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "chemistry",
+    "claim": "The evidence contains a present-day measurement of toxic tire pollution at the site.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "922691"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "922691",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "03/29/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922691_Report.pdf",
+      "coordinates": [
+        -122.202996,
+        47.656522
+      ]
+    },
+    "id": "audit-105",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The evidence contains a present-day measurement of toxic tire pollution at the site."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "609091"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "609091",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "03/19/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/609091_Report.pdf",
+      "coordinates": [
+        -122.241739,
+        47.712699
+      ]
+    },
+    "id": "audit-106",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "609091"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "609091",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "03/19/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/609091_Report.pdf",
+      "coordinates": [
+        -122.241739,
+        47.712699
+      ]
+    },
+    "id": "audit-107",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "impaired",
+    "claim": "This site's overlap with a temperature-impaired listing has been confirmed.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "609091"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "609091",
+      "stream": "unnamed",
+      "status": "passable",
+      "feature": "Non Culvert Xing",
+      "fishUse": "Yes",
+      "owner": "County",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "03/19/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/609091_Report.pdf",
+      "coordinates": [
+        -122.241739,
+        47.712699
+      ]
+    },
+    "id": "audit-108",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This site's overlap with a temperature-impaired listing has been confirmed."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"total\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "935946"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "935946",
+      "stream": "unnamed ",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "51st St",
+      "survey": "05/19/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935946_Report.pdf",
+      "coordinates": [
+        -122.023563,
+        47.653911
+      ]
+    },
+    "id": "audit-109",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"total\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "935946"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "935946",
+      "stream": "unnamed ",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "51st St",
+      "survey": "05/19/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935946_Report.pdf",
+      "coordinates": [
+        -122.023563,
+        47.653911
+      ]
+    },
+    "id": "audit-110",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "connectivity",
+    "claim": "From this record alone, we know all upstream spawning grounds are accessible.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "935946"
+      ]
+    },
+    "evidenceFields": [
+      "access"
+    ],
+    "site": {
+      "id": "935946",
+      "stream": "unnamed ",
+      "status": "total",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "Private",
+      "wria": 8,
+      "road": "51st St",
+      "survey": "05/19/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935946_Report.pdf",
+      "coordinates": [
+        -122.023563,
+        47.653911
+      ]
+    },
+    "id": "audit-111",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: From this record alone, we know all upstream spawning grounds are accessible."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"unknown\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records unknown.",
+      "citations": [
+        "935054"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "935054",
+      "stream": "Everest Cr",
+      "status": "unknown",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "08/12/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935054_Report.pdf",
+      "coordinates": [
+        -122.191819,
+        47.672232
+      ]
+    },
+    "id": "audit-112",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"unknown\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "The status is unknown, so this passage classification is not established.",
+      "citations": [
+        "935054"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "935054",
+      "stream": "Everest Cr",
+      "status": "unknown",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "08/12/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935054_Report.pdf",
+      "coordinates": [
+        -122.191819,
+        47.672232
+      ]
+    },
+    "id": "audit-113",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "observation",
+    "claim": "The survey includes an eyewitness observation of fish at the crossing.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "935054"
+      ]
+    },
+    "evidenceFields": [
+      "fishUse"
+    ],
+    "site": {
+      "id": "935054",
+      "stream": "Everest Cr",
+      "status": "unknown",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "08/12/2019",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935054_Report.pdf",
+      "coordinates": [
+        -122.191819,
+        47.672232
+      ]
+    },
+    "id": "audit-114",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The survey includes an eyewitness observation of fish at the crossing."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"total\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "930877"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "930877",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Other",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "12/17/2009",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/930877_Report.pdf",
+      "coordinates": [
+        -122.202981,
+        47.63904
+      ]
+    },
+    "id": "audit-115",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"total\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"passable\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "930877"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "930877",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Other",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "12/17/2009",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/930877_Report.pdf",
+      "coordinates": [
+        -122.202981,
+        47.63904
+      ]
+    },
+    "id": "audit-116",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"passable\" for passage."
+  },
+  {
+    "kind": "chemistry",
+    "claim": "The evidence contains a present-day measurement of toxic tire pollution at the site.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "930877"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "930877",
+      "stream": "unnamed",
+      "status": "total",
+      "feature": "Other",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Unnamed crossing",
+      "survey": "12/17/2009",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/930877_Report.pdf",
+      "coordinates": [
+        -122.202981,
+        47.63904
+      ]
+    },
+    "id": "audit-117",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The evidence contains a present-day measurement of toxic tire pollution at the site."
+  },
+  {
+    "kind": "record-match",
+    "claim": "The passage-status entry in this supplied inventory reads \"passable\".",
+    "expected": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "922816"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "922816",
+      "stream": "Maplewood Cr",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Hoquiam Pl NE",
+      "survey": "05/26/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922816_Report.pdf",
+      "coordinates": [
+        -122.150002,
+        47.482906
+      ]
+    },
+    "id": "audit-118",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: The passage-status entry in this supplied inventory reads \"passable\"."
+  },
+  {
+    "kind": "record-conflict",
+    "claim": "This official entry reports \"total\" for passage.",
+    "expected": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "922816"
+      ]
+    },
+    "evidenceFields": [
+      "status"
+    ],
+    "site": {
+      "id": "922816",
+      "stream": "Maplewood Cr",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Hoquiam Pl NE",
+      "survey": "05/26/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922816_Report.pdf",
+      "coordinates": [
+        -122.150002,
+        47.482906
+      ]
+    },
+    "id": "audit-119",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This official entry reports \"total\" for passage."
+  },
+  {
+    "kind": "impaired",
+    "claim": "This site's overlap with a temperature-impaired listing has been confirmed.",
+    "expected": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "922816"
+      ]
+    },
+    "evidenceFields": [
+      "impairment"
+    ],
+    "site": {
+      "id": "922816",
+      "stream": "Maplewood Cr",
+      "status": "passable",
+      "feature": "Culvert",
+      "fishUse": "Yes",
+      "owner": "City",
+      "wria": 8,
+      "road": "Hoquiam Pl NE",
+      "survey": "05/26/2022",
+      "access": "Unknown \u2014 no network join",
+      "impairment": "Unknown \u2014 no spatial join",
+      "official": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922816_Report.pdf",
+      "coordinates": [
+        -122.150002,
+        47.482906
+      ]
+    },
+    "id": "audit-120",
+    "question": "Audit the claim against the supplied inventory snapshot, not present-day conditions. Return only JSON with verdict (supported, contradicted, or insufficient), reason (one short sentence), and citations (array of source IDs). A matching recorded field supports a claim about the record; an explicitly different field contradicts it; unrecorded observations, connectivity, and chemistry are insufficient. Never infer observations from fish use, connectivity from passability, or water quality from barrier status.\nClaim: This site's overlap with a temperature-impaired listing has been confirmed."
+  }
+]

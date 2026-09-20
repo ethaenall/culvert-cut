@@ -1072,13 +1072,15 @@ textarea {
     width: 32px;
   }
   header nav {
-    gap: 13px;
+    gap: 7px;
+    margin-left: 12px;
   }
   header nav button {
-    font-size: 10px;
+    font-size: 9px;
+    padding: 0 2px;
   }
   header nav button:first-child {
-    display: none;
+    display: flex;
   }
   .workspace {
     height: auto;
@@ -1217,3 +1219,6 @@ textarea {
     transition: none !important;
   }
 }
+
+@media(max-width:400px){header .brand{font-size:17px;gap:7px}header .brand-mark{width:28px;height:28px}header nav button svg{display:none}}
+@media(max-width:340px){header .brand-mark{display:none}}

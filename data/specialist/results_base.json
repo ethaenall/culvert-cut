@@ -1,0 +1,1848 @@
+[
+  {
+    "id": "audit-001",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'partial', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'partial', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.757,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-002",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/936219_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/936219_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.433,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-003",
+    "raw": "{\n  \"verdict\": \"contradicted\",\n  \"reason\": \"The inventory snapshot does not provide information about upstream spawning grounds, only the culvert itself.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The inventory snapshot does not provide information about upstream spawning grounds, only the culvert itself.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.604,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-004",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.592,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-005",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606845_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606845_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.953,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-006",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The survey includes an eyewitness observation of fish at the crossing.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606845_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The survey includes an eyewitness observation of fish at the crossing.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606845_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.926,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-007",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.637,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-008",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/602419_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/602419_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.0,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-009",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The context does not provide any information about toxic tire pollution at the site. It only mentions that the stream is passable and that there is evidence of fish use.\n\n**Citations:** [WDFW](https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/602419_Report.pdf)",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.325,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-010",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'partial', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'partial', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.944,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-011",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/132161502_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/132161502_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 2.698,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-012",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The inventory snapshot shows a temperature-impaired listing, which is confirmed by the official report.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/132161502_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The inventory snapshot shows a temperature-impaired listing, which is confirmed by the official report.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/132161502_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 2.28,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-013",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.06,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-014",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The 'total' reported for passage in the inventory snapshot aligns with the 'Yes' fishUse field, indicating passage is possible.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/08.0259%20%20%200.00_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The 'total' reported for passage in the inventory snapshot aligns with the 'Yes' fishUse field, indicating passage is possible.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/08.0259%20%20%200.00_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 2.482,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-015",
+    "raw": "{\n  \"verdict\": \"contradicted\",\n  \"reason\": \"The inventory snapshot does not provide information about upstream spawning grounds, only the passage capability of the culvert.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The inventory snapshot does not provide information about upstream spawning grounds, only the passage capability of the culvert.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.156,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-016",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.022,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-017",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983074_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983074_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.686,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-018",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The survey includes an eyewitness observation of fish at the crossing.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983074_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The survey includes an eyewitness observation of fish at the crossing.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983074_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.569,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-019",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'total', which matches the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'total', which matches the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.052,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-020",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922167_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922167_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.421,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-021",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The context does not provide any information about toxic tire pollution at the site. It only mentions that the site is a culvert used for fish passage and has been surveyed on October 11, 2021.\n\n**Citations:** [922167]",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.615,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-022",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.092,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-023",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606957_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606957_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.443,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-024",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The inventory snapshot shows the site is listed as 'passable' and has 'Yes' for fishUse, which aligns with the claim that the site's overlap with a temperature-impaired listing has been confirmed.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606957_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The inventory snapshot shows the site is listed as 'passable' and has 'Yes' for fishUse, which aligns with the claim that the site's overlap with a temperature-impaired listing has been confirmed.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/606957_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 2.241,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-025",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.076,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-026",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The 'total' reported for passage in the context matches the claim that the official entry reports 'total'.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The 'total' reported for passage in the context matches the claim that the official entry reports 'total'.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.943,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-027",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The inventory snapshot does not provide information about upstream spawning grounds, only the passage status of a specific culvert crossing.\n\n**Citations:** [WDFW](https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605607_Report.pdf)",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.528,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-028",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.331,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-029",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605475_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605475_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.421,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-030",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The survey includes an eyewitness observation of fish at the crossing.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605475_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The survey includes an eyewitness observation of fish at the crossing.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605475_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.458,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-031",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'partial', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'partial', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.184,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-032",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/934089_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/934089_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.417,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-033",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The context does not provide any information about toxic tire pollution at the site. It only mentions that the stream is fishable and that there is a road and culvert present.\n\n**Citations:** [934089]",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.295,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-034",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.133,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-035",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The 'total' reported for passage in the context matches the claim that the official entry reports 'total'.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The 'total' reported for passage in the context matches the claim that the official entry reports 'total'.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.09,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-036",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The inventory snapshot shows 'Yes' for fishUse, indicating the site is used by fish, which is consistent with a temperature-impaired listing.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/700145_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The inventory snapshot shows 'Yes' for fishUse, indicating the site is used by fish, which is consistent with a temperature-impaired listing.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/700145_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.544,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-037",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.164,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-038",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The 'total' reported for passage in the context matches the claim that the official entry reports 'total'.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The 'total' reported for passage in the context matches the claim that the official entry reports 'total'.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.141,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-039",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The inventory snapshot does not provide information about upstream spawning grounds, only the passage status of a specific culvert crossing.\n\n**Citations:** [WDFW](https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/994121_Report.pdf)",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.424,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-040",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory reads 'partial', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory reads 'partial', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.102,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-041",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605083_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605083_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.471,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-042",
+    "raw": "**Verdict:** Supported\n\n**Reason:** The survey includes an eyewitness observation of fish at the crossing, as evidenced by the official report URL provided.\n\n**Citations:** [https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605083_Report.pdf]",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.441,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-043",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.083,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-044",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/982374_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/982374_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.401,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-045",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The context does not provide any information about toxic tire pollution at the site. It only mentions that the stream is passable, fish use is present, and the site is under WRIA 8 jurisdiction.\n\n**Citations:** [982374]",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.478,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-046",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory reads 'unknown', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory reads 'unknown', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.126,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-047",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921603_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921603_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.272,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-048",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The inventory snapshot shows a 'fishUse' of 'Yes', indicating the site is known to have fish passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921603_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The inventory snapshot shows a 'fishUse' of 'Yes', indicating the site is known to have fish passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921603_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.485,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-049",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'total', which matches the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'total', which matches the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.169,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-050",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935006_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935006_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.377,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-051",
+    "raw": "{\n  \"verdict\": \"contradicted\",\n  \"reason\": \"The inventory snapshot does not provide information about upstream spawning grounds, only the culvert itself.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The inventory snapshot does not provide information about upstream spawning grounds, only the culvert itself.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.975,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-052",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.0,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-053",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The 'total' reported for passage in the context matches the claim that the official entry reports 'total'.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The 'total' reported for passage in the context matches the claim that the official entry reports 'total'.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.076,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-054",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The survey includes an eyewitness observation of fish at the crossing.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/920066_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The survey includes an eyewitness observation of fish at the crossing.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/920066_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.429,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-055",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'total', which matches the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'total', which matches the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.039,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-056",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/934881_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/934881_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.253,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-057",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The context does not provide any information about toxic tire pollution at the site. It only mentions that the stream is fishable and that there is no network or spatial join, which does not support or contradict the claim about toxic pollution.\n\n**Citations:** [934881_Report.pdf]",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.364,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-058",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'partial', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'partial', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.599,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-059",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935942_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935942_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.913,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-060",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The inventory snapshot shows a temperature-impaired listing (impairment field is marked as 'Unknown \u2014 no spatial join'), which supports the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935942_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The inventory snapshot shows a temperature-impaired listing (impairment field is marked as 'Unknown \u2014 no spatial join'), which supports the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935942_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.053,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-061",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'total', which matches the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'total', which matches the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.568,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-062",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/999602_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/999602_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.829,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-063",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The inventory snapshot does not provide information about upstream spawning grounds or their accessibility. It only indicates that the stream is dammed and that there is a crossing, but it does not specify whether the spawning grounds are accessible or not.\n\n**Citations:** [WDFW]",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.893,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-064",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'partial', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'partial', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.586,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-065",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/610123_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/610123_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.915,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-066",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The survey includes an eyewitness observation of fish at the crossing.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/610123_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The survey includes an eyewitness observation of fish at the crossing.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/610123_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.9,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-067",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory reads 'total', which matches the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory reads 'total', which matches the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.556,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-068",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932323_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932323_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.832,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-069",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The context does not provide any information about toxic tire pollution at the site. It only mentions a survey date and a road name, but does not state that there is any evidence of such pollution.\n\n**Citations:** [WDFW]",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.818,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-070",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.598,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-071",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983088_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983088_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.914,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-072",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The inventory snapshot shows 'Yes' for fishUse, indicating the site is known to have fish passage issues.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983088_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The inventory snapshot shows 'Yes' for fishUse, indicating the site is known to have fish passage issues.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/983088_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.978,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-073",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'partial', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'partial', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.579,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-074",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/998054_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/998054_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.906,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-075",
+    "raw": "{\n  \"verdict\": \"contradicted\",\n  \"reason\": \"The record does not provide information about upstream spawning grounds or their accessibility.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record does not provide information about upstream spawning grounds or their accessibility.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.559,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-076",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'total', which matches the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'total', which matches the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.567,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-077",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932314_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932314_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.841,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-078",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The survey includes an eyewitness observation of fish at the crossing.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932314_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The survey includes an eyewitness observation of fish at the crossing.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932314_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.901,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-079",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.599,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-080",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The 'total' reported for passage aligns with the 'Yes' fishUse field, indicating passage is possible.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605718_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The 'total' reported for passage aligns with the 'Yes' fishUse field, indicating passage is possible.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605718_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.02,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-081",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The context does not provide any information about toxic tire pollution or a present-day measurement at the site.\n\n**Citations:** [https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605718_Report.pdf]",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.883,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-082",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot is explicitly labeled as 'unknown'.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot is explicitly labeled as 'unknown'.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.556,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-083",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922697_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922697_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.836,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-084",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The inventory snapshot shows a temperature-impaired listing (impairment field) for the Yarrow Cr stream, which is consistent with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922697_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The inventory snapshot shows a temperature-impaired listing (impairment field) for the Yarrow Cr stream, which is consistent with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922697_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.058,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-085",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/602381_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/602381_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.981,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-086",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The 'total' reported for passage in the context matches the claim that the official entry reports 'total'.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The 'total' reported for passage in the context matches the claim that the official entry reports 'total'.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.625,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-087",
+    "raw": "{\n  \"verdict\": \"contradicted\",\n  \"reason\": \"The inventory snapshot does not provide information about upstream spawning grounds, only the passage status of the stream.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The inventory snapshot does not provide information about upstream spawning grounds, only the passage status of the stream.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.627,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-088",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605664_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605664_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.925,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-089",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The 'total' reported for passage in the context matches the claim.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605664_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The 'total' reported for passage in the context matches the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605664_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.924,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-090",
+    "raw": "**Verdict:** Supported\n\n**Reason:** The survey includes an eyewitness observation of fish at the crossing, which directly supports the claim.\n\n**Citations:** [https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605664_Report.pdf](https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/605664_Report.pdf)",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.177,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-091",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'total', which matches the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'total', which matches the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.567,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-092",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922791_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922791_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.83,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-093",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The context does not provide any information about toxic tire pollution or a present-day measurement at the site.\n\n**Citations:** [https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922791_Report.pdf]",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.879,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-094",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.592,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-095",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/931799_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/931799_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.908,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-096",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The inventory snapshot shows the site is listed as 'passable' and has a temperature-impaired listing, which supports the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/931799_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The inventory snapshot shows the site is listed as 'passable' and has a temperature-impaired listing, which supports the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/931799_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.02,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-097",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'total', which matches the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'total', which matches the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.571,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-098",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932416_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/932416_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.831,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-099",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The inventory snapshot does not provide information about upstream spawning grounds, only the culvert itself. There is no mention of connectivity or access to upstream areas.\n\n**Citations:** [WDFW]",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.709,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-100",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.591,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-101",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921477_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921477_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.903,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-102",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The survey includes an eyewitness observation of fish at the crossing.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921477_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The survey includes an eyewitness observation of fish at the crossing.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921477_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.902,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-103",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory reads 'total', which matches the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory reads 'total', which matches the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.567,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-104",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922691_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922691_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.838,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-105",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The context does not provide any information about toxic tire pollution at the site. It only mentions that the stream is unnamed, the status is total, and there is evidence of fish use. There is no mention of any pollution levels or measurements.\n\n**Citations:** [922691_Report.pdf]",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.988,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-106",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/609091_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'passable', which directly supports the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/609091_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.957,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-107",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The 'total' reported for passage aligns with the 'Yes' fishUse field, indicating passage is possible.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/609091_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The 'total' reported for passage aligns with the 'Yes' fishUse field, indicating passage is possible.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/609091_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.025,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-108",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The inventory snapshot shows 'Yes' for fishUse, indicating the site is known to have fish passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/609091_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The inventory snapshot shows 'Yes' for fishUse, indicating the site is known to have fish passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/609091_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.038,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-109",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory reads 'total', which matches the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory reads 'total', which matches the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.66,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-110",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935946_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935946_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.964,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-111",
+    "raw": "{\n  \"verdict\": \"contradicted\",\n  \"reason\": \"The inventory snapshot does not provide information about upstream spawning grounds, only the culvert itself.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The inventory snapshot does not provide information about upstream spawning grounds, only the culvert itself.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.704,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-112",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory reads 'unknown', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory reads 'unknown', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.65,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-113",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935054_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935054_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.91,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-114",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The survey includes an eyewitness observation of fish at the crossing.\",\n  \"citations\": [\n    \"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935054_Report.pdf\"\n  ]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The survey includes an eyewitness observation of fish at the crossing.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/935054_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.97,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-115",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory snapshot reads 'total', which matches the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory snapshot reads 'total', which matches the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.627,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-116",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'passable' for passage.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/930877_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'passable' for passage.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/930877_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.909,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-117",
+    "raw": "**Verdict:** Contradicted\n\n**Reason:** The context does not provide any information about toxic tire pollution or a present-day measurement at the site.\n\n**Citations:** [https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/930877_Report.pdf]",
+    "parsed": null,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.98,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-118",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The passage-status entry in the inventory reads 'passable', which directly supports the claim.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The passage-status entry in the inventory reads 'passable', which directly supports the claim.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.682,
+    "correctVerdict": true,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-119",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The official entry reports 'total' for passage, which aligns with the claim.\",\n  \"citations\": [\"https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922816_Report.pdf\"]\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The official entry reports 'total' for passage, which aligns with the claim.",
+      "citations": [
+        "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/922816_Report.pdf"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.078,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  },
+  {
+    "id": "audit-120",
+    "raw": "{\n  \"verdict\": \"supported\",\n  \"reason\": \"The inventory snapshot shows the site is listed as passable, which implies it is not temperature-impaired.\",\n  \"citations\": []\n}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The inventory snapshot shows the site is listed as passable, which implies it is not temperature-impaired.",
+      "citations": []
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.86,
+    "correctVerdict": false,
+    "validCitations": false,
+    "passed": false
+  }
+]

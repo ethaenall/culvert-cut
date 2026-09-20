@@ -1,0 +1,248 @@
+{
+  "mode": "adapter",
+  "evaluated": 40,
+  "failures": 0,
+  "missingCitations": 0,
+  "results": [
+    {
+      "site": "922740",
+      "output": "Site 922740 on EF Waynita Cr is recorded as passable. [922740] Fish use is Yes and the feature is Culvert. [922740] Upstream access is not established by this record. [922740]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "998986",
+      "output": "Site 998986 on Sammamish R is recorded as passable. [998986] Fish use is Yes and the feature is Non Culvert Xing. [998986] Upstream access is not established by this record. [998986]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "922719",
+      "output": "Site 922719 on Cedar Cr is recorded as partial. [922719] Fish use is Yes and the feature is Culvert. [922719] Upstream access is not established by this record. [922719]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "SDN010",
+      "output": "Site SDN010 on unnamed is recorded as partial. [SDN010] Fish use is Yes and the feature is Culvert. [SDN010] Upstream access is not established by this record. [SDN010]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "610103",
+      "output": "Site 610103 on unnamed is recorded as total. [610103] Fish use is Yes and the feature is Culvert. [610103] Upstream access is not established by this record. [610103]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "994421",
+      "output": "Site 994421 on unnamed is recorded as total. [994421] Fish use is Yes and the feature is Dam. [994421] Upstream access is not established by this record. [994421]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "921255",
+      "output": "Site 921255 on Horse Cr is recorded as passable. [921255] Fish use is Yes and the feature is Culvert. [921255] Upstream access is not established by this record. [921255]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "920077",
+      "output": "Site 920077 on unnamed is recorded as partial. [920077] Fish use is Yes and the feature is Culvert. [920077] Upstream access is not established by this record. [920077]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "605588",
+      "output": "Site 605588 on unnamed is recorded as passable. [605588] Fish use is Yes and the feature is Non Culvert Xing. [605588] Upstream access is not established by this record. [605588]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "994082",
+      "output": "Site 994082 on unnamed is recorded as total. [994082] Fish use is Yes and the feature is Culvert. [994082] Upstream access is not established by this record. [994082]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "922267",
+      "output": "Site 922267 on unnamed is recorded as passable. [922267] Fish use is Yes and the feature is Non Culvert Xing. [922267] Upstream access is not established by this record. [922267]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "605074",
+      "output": "Site 605074 on unnamed is recorded as total. [605074] Fish use is Yes and the feature is Culvert. [605074] Upstream access is not established by this record. [605074]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "922146",
+      "output": "Site 922146 on Valley Cr is recorded as partial. [922146] Fish use is Yes and the feature is Culvert. [922146] Upstream access is not established by this record. [922146]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "606739",
+      "output": "Site 606739 on unnamed is recorded as passable. [606739] Fish use is Yes and the feature is Culvert. [606739] Upstream access is not established by this record. [606739]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "922229",
+      "output": "Site 922229 on unnamed is recorded as unknown. [922229] Fish use is Yes and the feature is Culvert. [922229] Upstream access is not established by this record. [922229]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "991736",
+      "output": "Site 991736 on Yarrow Cr is recorded as passable. [991736] Fish use is Yes and the feature is Culvert. [991736] Upstream access is not established by this record. [991736]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "605548",
+      "output": "Site 605548 on unnamed is recorded as partial. [605548] Fish use is Yes and the feature is Culvert. [605548] Upstream access is not established by this record. [605548]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "998979",
+      "output": "Site 998979 on unnamed is recorded as total. [998979] Fish use is Yes and the feature is Culvert. [998979] Upstream access is not established by this record. [998979]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "922859",
+      "output": "Site 922859 on unnamed is recorded as partial. [922859] Fish use is Yes and the feature is Culvert. [922859] Upstream access is not established by this record. [922859]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "609149",
+      "output": "Site 609149 on unnamed is recorded as passable. [609149] Fish use is Yes and the feature is Culvert. [609149] Upstream access is not established by this record. [609149]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "922811",
+      "output": "Site 922811 on Honey Cr is recorded as unknown. [922811] Fish use is Yes and the feature is Culvert. [922811] Upstream access is not established by this record. [922811]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "102 L060",
+      "output": "Site 102 L060 on Little Bear Cr is recorded as unknown. [102 L060] Fish use is Yes and the feature is Culvert. [102 L060] Upstream access is not established by this record. [102 L060]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "922788",
+      "output": "Site 922788 on unnamed is recorded as partial. [922788] Fish use is Yes and the feature is Culvert. [922788] Upstream access is not established by this record. [922788]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "605603",
+      "output": "Site 605603 on unnamed is recorded as passable. [605603] Fish use is Yes and the feature is Non Culvert Xing. [605603] Upstream access is not established by this record. [605603]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "922432",
+      "output": "Site 922432 on unnamed is recorded as unknown. [922432] Fish use is Yes and the feature is Culvert. [922432] Upstream access is not established by this record. [922432]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "606749",
+      "output": "Site 606749 on unnamed is recorded as total. [606749] Fish use is Yes and the feature is Culvert. [606749] Upstream access is not established by this record. [606749]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "922231",
+      "output": "Site 922231 on unnamed is recorded as unknown. [922231] Fish use is Yes and the feature is Culvert. [922231] Upstream access is not established by this record. [922231]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "982378",
+      "output": "Site 982378 on unnamed is recorded as partial. [982378] Fish use is Yes and the feature is Dam. [982378] Upstream access is not established by this record. [982378]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "934731",
+      "output": "Site 934731 on unnamed is recorded as passable. [934731] Fish use is Yes and the feature is Culvert. [934731] Upstream access is not established by this record. [934731]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "922812",
+      "output": "Site 922812 on Honey Cr is recorded as unknown. [922812] Fish use is Yes and the feature is Culvert. [922812] Upstream access is not established by this record. [922812]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "922277",
+      "output": "Site 922277 on Kelsey Cr is recorded as passable. [922277] Fish use is Yes and the feature is Non Culvert Xing. [922277] Upstream access is not established by this record. [922277]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "606994",
+      "output": "Site 606994 on unnamed is recorded as partial. [606994] Fish use is Yes and the feature is Culvert. [606994] Upstream access is not established by this record. [606994]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "999418",
+      "output": "Site 999418 on EF Issaquah Cr is recorded as passable. [999418] Fish use is Yes and the feature is Non Culvert Xing. [999418] Upstream access is not established by this record. [999418]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "922401",
+      "output": "Site 922401 on unnamed is recorded as total. [922401] Fish use is Yes and the feature is Culvert. [922401] Upstream access is not established by this record. [922401]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "998969",
+      "output": "Site 998969 on unnamed is recorded as total. [998969] Fish use is Yes and the feature is Culvert. [998969] Upstream access is not established by this record. [998969]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "991702",
+      "output": "Site 991702 on unnamed is recorded as unknown. [991702] Fish use is Yes and the feature is Culvert. [991702] Upstream access is not established by this record. [991702]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "935050",
+      "output": "Site 935050 on Everest Cr is recorded as total. [935050] Fish use is Yes and the feature is Culvert. [935050] Upstream access is not established by this record. [935050]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "932051",
+      "output": "Site 932051 on Evans Cr is recorded as passable. [932051] Fish use is Yes and the feature is Non Culvert Xing. [932051] Upstream access is not established by this record. [932051]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "933864",
+      "output": "Site 933864 on unnamed is recorded as partial. [933864] Fish use is Yes and the feature is Culvert. [933864] Upstream access is not established by this record. [933864]",
+      "unknownIds": [],
+      "hasCitation": true
+    },
+    {
+      "site": "609070",
+      "output": "Site 609070 on unnamed is recorded as total. [609070] Fish use is Yes and the feature is Culvert. [609070] Upstream access is not established by this record. [609070]",
+      "unknownIds": [],
+      "hasCitation": true
+    }
+  ]
+}

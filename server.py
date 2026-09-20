@@ -12,8 +12,8 @@ class Ask(BaseModel):
  question:str=Field(min_length=1,max_length=1500)
  context:dict=Field(default_factory=dict)
 def retrieve(question,requested):
- terms=set(re.findall(r'[a-z0-9]+',question.lower()))-{'what','this','the','is','a','on','in','can','you','tell','me','about','it','and','for','of','site'}
- ranked=sorted(((sum(t in re.findall(r"[a-z0-9]+", f"{s['id']} {s['stream']} {s['road']}".lower()) for t in terms),s) for s in SITES),key=lambda x:x[0],reverse=True)
+ terms=set(re.findall(r'[a-z0-9]+',question.lower()))-{'what','this','that','the','is','a','on','in','can','you','tell','me','about','it','and','for','of','does','why','site','explain','creek','cr','river','stream','crossing','barrier'}
+ ranked=sorted(((sum((10 if t==s['id'].lower() else 0)+(3 if t in re.findall(r'[a-z0-9]+',s['stream'].lower()) else 0)+(1 if t in re.findall(r'[a-z0-9]+',s['road'].lower()) else 0) for t in terms),s) for s in SITES),key=lambda x:x[0],reverse=True)
  sites=[s for n,s in ranked if n][:3]
  # A selected site ID may guide retrieval, but all fields are read back from canonical files.
  if re.search(r'\b(this|selected)\b',question,re.I):
@@ -49,3 +49,26 @@ def ask(body:Ask):
  selected=[s for s in allowed if s['text']+' ['+s['cite']+']' in raw]
  if not selected:return {'mode':'template fallback · model output rejected','sentences':allowed[:3]}
  return {'mode':'adapter loaded · extractive gate' if model.adapter_loaded else 'base model · extractive gate','sentences':selected[:5]}
+
+class AuditRequest(BaseModel):
+ siteId:str=Field(min_length=1,max_length=80)
+ claim:str=Field(min_length=3,max_length=1000)
+
+@app.post('/api/audit')
+def audit(body:AuditRequest):
+ global model
+ site=next((s for s in SITES if s['id']==body.siteId),None)
+ if site is None:raise HTTPException(404,'Site not in bundled inventory')
+ from scripts.build_specialist import audit_prompt
+ from specialist import parse_audit
+ import time
+ with lock:
+  try:
+   if model is None:
+    from infer import LocalModel
+    model=LocalModel()
+   start=time.perf_counter();raw=model.answer(audit_prompt(body.claim),site);elapsed=time.perf_counter()-start
+  except Exception as e:raise HTTPException(503,'Local model is unavailable.') from e
+ parsed=parse_audit(raw)
+ valid=bool(parsed and parsed['citations']==[site['id']])
+ return {'mode':'adapter' if model.adapter_loaded else 'base','raw':raw,'parsed':parsed if valid else None,'citationCheck':valid,'seconds':round(elapsed,2),'site':site,'note':'Model interpretation of an inventory snapshot. Citation validation does not establish factual correctness.'}

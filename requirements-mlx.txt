@@ -1,0 +1,6 @@
+# Apple silicon training/inference environment; separate from CUDA/PEFT requirements.
+mlx==0.32.2
+mlx-lm[train]==0.31.3
+transformers==5.17.0
+fastapi>=0.115,<1
+uvicorn>=0.34,<1

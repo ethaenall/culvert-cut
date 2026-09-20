@@ -10,3 +10,10 @@ training-output/
 
 test-results/
 playwright-report/
+!adapter/mlx/
+adapter/mlx/*
+!adapter/mlx/adapters.safetensors
+!adapter/mlx/adapter_config.json
+!adapter/mlx/training_run.json
+
+video-build/

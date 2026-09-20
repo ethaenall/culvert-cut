@@ -1,0 +1,42 @@
+[
+  {
+    "scene": "intro",
+    "text": "An official record describes one crossing. Does that tell us whether fish can reach every spawning reach upstream? It is a tempting leap, but a different claim. Culvert Cut is a small, locally trained specialist that makes the gap between evidence and conclusion visible."
+  },
+  {
+    "scene": "claim",
+    "text": "Here is a real record held out from training. The claim says this crossing guarantees an open route to every upstream spawning reach. Read the source beside it. Passage is recorded, but a verified upstream network assessment is missing. Make your own call before revealing either model."
+  },
+  {
+    "scene": "compare",
+    "text": "The base model calls this contradicted. Our trained specialist says not established: the snapshot cannot answer the connectivity question. That distinction matters. Missing evidence is not the same as evidence of the opposite. Both responses are actual, unedited local generations, with identical instructions and context. You can inspect the raw output."
+  },
+  {
+    "scene": "metrics",
+    "text": "Across one hundred twenty cases from forty unseen sites, the base produced forty correct verdicts. After training, that became one hundred sixteen: ninety-six point seven percent. Citation format is measured separately. This is a narrow, programmatically labeled benchmark, not a claim that the model understands every ecological question."
+  },
+  {
+    "scene": "failures",
+    "text": "The four wrong verdicts are visible too. Here the specialist makes a mistake. We publish all prompts, records, and outputs so a judge can inspect the limits, rather than relying on a handpicked success."
+  },
+  {
+    "scene": "live",
+    "text": "The public website replays recorded model trials. This local mode runs new claims through the actual adapter. Select a site, type a claim, and inspect the returned explanation beside its source. No external language model service receives the question. Citation checks still do not certify that every interpretation is correct."
+  },
+  {
+    "scene": "map",
+    "text": "Behind the experiment is a working map of nineteen hundred thirty-one official fish-passage records in the Lake Washington, Cedar, and Sammamish basin. Filter crossings, compare total and partial barriers, and explore field notes from Zackuse Creek to the Sammamish River. The original report and a public-works briefing are one click away."
+  },
+  {
+    "scene": "layers",
+    "text": "Pipes are only one pressure. King County habitat potential and Ecology water-quality assessments add context. The first-flush banner is a labeled demonstration, not a chemical sensor. We trained the one-point-five-billion-parameter model on this Mac using a small LoRA adapter, and included the weights, dataset, and reproducible evaluation."
+  },
+  {
+    "scene": "ask",
+    "text": "Ask this basin also offers reliable, cited record summaries without loading a model. Follow a source, then copy a specific public-works question."
+  },
+  {
+    "scene": "close",
+    "text": "Our lesson is that an environmental AI should show where its evidence ends. Culvert Cut combines local records, a measurable training result, and a practical way to question an unsupported conclusion. Follow one stream. Inspect one record. Ask a better question."
+  }
+]

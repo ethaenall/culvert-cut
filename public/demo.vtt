@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00:00.700 --> 00:00:03.024
+An official record describes one crossing.
+
+00:00:03.024 --> 00:00:09.497
+Does that tell us whether fish can reach every spawning reach upstream? It is a tempting leap, but a different claim.
+
+00:00:09.497 --> 00:00:15.639
+Culvert Cut is a small, locally trained specialist that makes the gap between evidence and conclusion visible..
+
+00:00:16.639 --> 00:00:19.127
+Here is a real record held out from training.
+
+00:00:19.127 --> 00:00:23.937
+The claim says this crossing guarantees an open route to every upstream spawning reach.
+
+00:00:23.937 --> 00:00:25.374
+Read the source beside it.
+
+00:00:25.374 --> 00:00:29.521
+Passage is recorded, but a verified upstream network assessment is missing.
+
+00:00:29.521 --> 00:00:32.285
+Make your own call before revealing either model..
+
+00:00:33.285 --> 00:00:35.608
+The base model calls this contradicted.
+
+00:00:35.608 --> 00:00:41.447
+Our trained specialist says not established: the snapshot cannot answer the connectivity question.
+
+00:00:41.447 --> 00:00:42.936
+That distinction matters.
+
+00:00:42.936 --> 00:00:46.571
+Missing evidence is not the same as evidence of the opposite.
+
+00:00:46.571 --> 00:00:52.230
+Both responses are actual, unedited local generations, with identical instructions and context.
+
+00:00:52.230 --> 00:00:54.137
+You can inspect the raw output..
+
+00:00:55.137 --> 00:01:01.196
+Across one hundred twenty cases from forty unseen sites, the base produced forty correct verdicts.
+
+00:01:01.196 --> 00:01:06.143
+After training, that became one hundred sixteen: ninety-six point seven percent.
+
+00:01:06.143 --> 00:01:08.554
+Citation format is measured separately.
+
+00:01:08.554 --> 00:01:15.973
+This is a narrow, programmatically labeled benchmark, not a claim that the model understands every ecological question..
+
+00:01:16.973 --> 00:01:19.323
+The four wrong verdicts are visible too.
+
+00:01:19.323 --> 00:01:21.438
+Here the specialist makes a mistake.
+
+00:01:21.438 --> 00:01:28.781
+We publish all prompts, records, and outputs so a judge can inspect the limits, rather than relying on a handpicked success..
+
+00:01:29.781 --> 00:01:32.750
+The public website replays recorded model trials.
+
+00:01:32.750 --> 00:01:36.326
+This local mode runs new claims through the actual adapter.
+
+00:01:36.326 --> 00:01:41.416
+Select a site, type a claim, and inspect the returned explanation beside its source.
+
+00:01:41.416 --> 00:01:44.870
+No external language model service receives the question.
+
+00:01:44.870 --> 00:01:49.414
+Citation checks still do not certify that every interpretation is correct..
+
+00:01:50.414 --> 00:01:59.026
+Behind the experiment is a working map of nineteen hundred thirty-one official fish-passage records in the Lake Washington, Cedar, and Sammamish basin.
+
+00:01:59.026 --> 00:02:05.871
+Filter crossings, compare total and partial barriers, and explore field notes from Zackuse Creek to the Sammamish River.
+
+00:02:05.871 --> 00:02:09.749
+The original report and a public-works briefing are one click away..
+
+00:02:20.749 --> 00:02:22.454
+Pipes are only one pressure.
+
+00:02:22.454 --> 00:02:27.325
+King County habitat potential and Ecology water-quality assessments add context.
+
+00:02:27.325 --> 00:02:31.770
+The first-flush banner is a labeled demonstration, not a chemical sensor.
+
+00:02:31.770 --> 00:02:41.390
+We trained the one-point-five-billion-parameter model on this Mac using a small LoRA adapter, and included the weights, dataset, and reproducible evaluation..
+
+00:02:42.390 --> 00:02:47.694
+Ask this basin also offers reliable, cited record summaries without loading a model.
+
+00:02:47.694 --> 00:02:51.547
+Follow a source, then copy a specific public-works question..
+
+00:02:52.547 --> 00:02:57.114
+Our lesson is that an environmental AI should show where its evidence ends.
+
+00:02:57.114 --> 00:03:04.667
+Culvert Cut combines local records, a measurable training result, and a practical way to question an unsupported conclusion.
+
+00:03:04.667 --> 00:03:05.763
+Follow one stream.
+
+00:03:05.763 --> 00:03:06.920
+Inspect one record.
+
+00:03:06.920 --> 00:03:08.321
+Ask a better question..

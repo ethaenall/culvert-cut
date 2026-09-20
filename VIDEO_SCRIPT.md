@@ -1,41 +1,36 @@
-# Culvert Cut — three-minute demo script
+# Culvert Cut — recorded demo and script
 
-Target runtime: 3:00; rehearse within 2:45–3:15. This is a script, not a completed video. Start with the app open, no filters, no rain; keep README's comparison fixture ready in a second tab. Record at 1440×900 or larger. Use the template badge visibly; do not imply an adapter was trained.
+Runtime: approximately 3:09 (within 2:45–3:15). This is an actual recording of the local app, with macOS Samantha synthesized narration. It is not presented as a student speaking. No generated video scenes or invented model responses are used.
 
-| Time | Screen action | Narration |
+The video distinguishes recorded held-out model trials from new live local inference. It includes the map, filters, twelve story cards, habitat and impairment overlays, labeled demo rain, and the citation-backed Ask flow. Headline numbers come from the committed final evaluation: 40/120 base verdicts and 116/120 specialist verdicts. The four specialist failures remain public.
+
+[Watch the narrated demo](https://ethaenall.github.io/culvert-cut/demo.html)
+
+| Time | Screen | Narration |
 |---|---|---|
-| 0:00–0:25 | Basin map → Zackuse field note (01) → Issaquah Creek State Park (02) | “An ordinary road crossing can interrupt a salmon's route home. In the winter of 2017–18, fewer than twenty Lake Sammamish kokanee returned. That is historical context, not today's count. Culvert Cut helps us inspect three connected pressures in one basin: pipes, hot water, and first-flush runoff.” |
-| 0:25–0:50 | Turn on barriers, fish use, culverts; show counts and legend. Overlay the six-card montage described below. | “These are real official inventory records in WRIA 8. Filter for barriers where fish use is recorded, then focus on culverts. Squares are total barriers, circles are partial, diamonds are passable, and triangles are unknown. The inventory is incomplete, and unknown never means passable.” |
-| 0:50–1:10 | Search `920121`, browse records, open Zackuse total site; copy briefing | “Here is Zackuse Site 920121. The drawer shows the recorded status, feature, owner type, and survey date. A three-sentence briefing includes the exact identifier and coordinates. It asks public works to verify the condition and next step; it does not pretend to submit a repair request.” |
-| 1:10–1:30 | Close drawer; clear search; enable coho potential/access | “Habitat can exist while a pipe blocks a route. King County models coho potential and current anadromous access. That is valuable context, but this version has no verified network join. We cannot say from one pin whether every coho or kokanee can reach habitat above it.” |
-| 1:30–1:45 | Enable 303(d); open Sammamish River second-squeeze (03), then Heat without a crossing (10) | “Passage is only one squeeze. These are Ecology's official assessment areas. Temperature and dissolved oxygen listings describe another pressure. Riparian planting reached 28.6 of the 69-acre Sammamish River goal, about forty-one percent.” |
-| 1:45–2:00 | Open I-405 sampling story (04), close drawer, then switch Demo rain on | “Rain after six canned dry days triggers this first-flush reminder. The five-dry-day threshold is a demonstration heuristic. There is no live forecast, chemical reading, or 6PPD detector here.” |
-| 2:00–2:20 | Ask tab; click Explain Zackuse Creek; show citation chips, then ask an unrelated query | “Ask this basin retrieves records and source snippets. Each displayed statement carries a source chip. Ask something outside those records and it refuses. The default is a deterministic template, so the core demo needs no GPU or hosted language-model API.” |
-| 2:20–2:40 | README side-by-side fixture, then dataset card and train.py | “We also built a 3,027-example specialist dataset and a Qwen LoRA training pipeline. Forty sites are held out. This side-by-side fixture shows the intended grounded behavior, not a fabricated training result. No adapter is trained in this delivery; the included comparison script records actual outputs after training.” |
-| 2:40–3:00 | Return to Redmond trail spawn-watch card (11), open Sources & limitations, finish on basin | “Our biggest lesson was to keep evidence and inference separate. A citation alone is not enough, and missing data deserves an honest unknown. Culvert Cut connects a local map to a practical action: follow one stream, inspect one official record, and ask public works a better question.” |
+| 0:00–0:16 | Intro | An official record describes one crossing. Does that tell us whether fish can reach every spawning reach upstream? It is a tempting leap, but a different claim. Culvert Cut is a small, locally trained specialist that makes the gap between evidence and conclusion visible. |
+| 0:16–0:33 | Claim | Here is a real record held out from training. The claim says this crossing guarantees an open route to every upstream spawning reach. Read the source beside it. Passage is recorded, but a verified upstream network assessment is missing. Make your own call before revealing either model. |
+| 0:33–0:55 | Compare | The base model calls this contradicted. Our trained specialist says not established: the snapshot cannot answer the connectivity question. That distinction matters. Missing evidence is not the same as evidence of the opposite. Both responses are actual, unedited local generations, with identical instructions and context. You can inspect the raw output. |
+| 0:55–1:16 | Metrics | Across one hundred twenty cases from forty unseen sites, the base produced forty correct verdicts. After training, that became one hundred sixteen: ninety-six point seven percent. Citation format is measured separately. This is a narrow, programmatically labeled benchmark, not a claim that the model understands every ecological question. |
+| 1:16–1:29 | Failures | The four wrong verdicts are visible too. Here the specialist makes a mistake. We publish all prompts, records, and outputs so a judge can inspect the limits, rather than relying on a handpicked success. |
+| 1:29–1:50 | Live | The public website replays recorded model trials. This local mode runs new claims through the actual adapter. Select a site, type a claim, and inspect the returned explanation beside its source. No external language model service receives the question. Citation checks still do not certify that every interpretation is correct. |
+| 1:50–2:20 | Map | Behind the experiment is a working map of nineteen hundred thirty-one official fish-passage records in the Lake Washington, Cedar, and Sammamish basin. Filter crossings, compare total and partial barriers, and explore field notes from Zackuse Creek to the Sammamish River. The original report and a public-works briefing are one click away. |
+| 2:20–2:42 | Layers | Pipes are only one pressure. King County habitat potential and Ecology water-quality assessments add context. The first-flush banner is a labeled demonstration, not a chemical sensor. We trained the one-point-five-billion-parameter model on this Mac using a small LoRA adapter, and included the weights, dataset, and reproducible evaluation. |
+| 2:42–2:52 | Ask | Ask this basin also offers reliable, cited record summaries without loading a model. Follow a source, then copy a specific public-works question. |
+| 2:52–3:09 | Close | Our lesson is that an environmental AI should show where its evidence ends. Culvert Cut combines local records, a measurable training result, and a practical way to question an unsupported conclusion. Follow one stream. Inspect one record. Ask a better question. |
 
-If training is actually completed before recording, replace 2:20–2:40 with the genuine `comparison_actual.json` outputs and the measured evaluator results. Describe failures as well as successes; never call an authored anti-example a base-model output. Keep the same runtime.
+The map scene includes a brief tour of all twelve field-note cards. The named-site contexts and inventory records remain distinguished in the UI; story locations do not manufacture barrier classifications.
 
-## Required story coverage and recording plan
+## Reproduce the recording
 
-Keep the spoken timeline above at 3:00. Record the following short map-and-drawer clips separately, then place them as B-roll over the existing narration; these clips do not add runtime. Keep each title and status readable. For story clips, clear filters so the selected crossing stays visible, and close each drawer before selecting the next card.
+With the local app and model API running (`npm run dev:local`):
 
-| Time within the three-minute edit | Required story shown |
-|---|---|
-| 0:05–0:14 | 01 Zackuse / Louis Thompson corridor |
-| 0:14–0:23 | 02 Issaquah Creek / State Park; keep illustrative label visible |
-| 0:25–0:32 | Live filter demonstration and legend |
-| 0:32–0:35 | 05 Juanita Creek |
-| 0:35–0:38 | 06 Not only highways: driveway road field + Culvert feature |
-| 0:38–0:41 | 07 A way through: passable contrast |
-| 0:41–0:44 | 08 A partial barrier |
-| 0:44–0:47 | 09 Fish use yes / total barrier |
-| 0:47–0:50 | 12 Highway / city: split-screen WSDOT story and its Compare City-owned crossing result |
-| 0:50–1:10 | Zackuse total Site 920121, briefing and official link |
-| 1:30–1:38 | 03 Sammamish River mainstem temperature / oxygen context |
-| 1:38–1:45 | 10 Heat without a crossing; no invented passability classification |
-| 1:45–1:50 | 04 Sammamish River at I-405 sampling context |
-| 1:50–2:00 | Demo rain banner |
-| 2:40–2:46 | 11 Redmond trail spawn-watch card |
+```sh
+python scripts/assemble_video.py audio
+node scripts/record_demo.mjs
+python scripts/assemble_video.py assemble
+```
 
-The remaining Ask, comparison, and closing shots follow the main timeline. This covers all twelve stories while reserving the detailed drawer explanation for one crossing.
+Requires macOS `say`, FFmpeg, and the Playwright Chromium browser. Narration lives in `scripts/video_segments.json`. Outputs are `public/demo.mp4`, `public/demo.vtt`, and the existing accessible player `public/demo.html`. No external speech or LLM service is used.
+
+The entrant can re-record this script in their own voice. Devpost submission and any eligibility attestation remain the entrant's responsibility; AI-assisted implementation and synthetic narration are disclosed here.

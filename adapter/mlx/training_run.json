@@ -1,0 +1,21 @@
+{
+  "base": "Qwen/Qwen2.5-1.5B-Instruct",
+  "backend": "mlx-lm 0.31.3",
+  "hardware": "Apple M5 Pro, 48 GiB unified memory",
+  "completedAt": "2026-09-20T20:29:12.361661+00:00",
+  "steps": 770,
+  "batchSize": 4,
+  "rank": 16,
+  "scale": 2.0,
+  "equivalentAlpha": 32.0,
+  "sequenceLength": 768,
+  "seed": 2026,
+  "peakMemoryGB": 11.13,
+  "finalValidationLoss": 0.548,
+  "validationLossNote": "Five validation batches, completion-only loss; not task accuracy.",
+  "datasetSha256": "b08a3922d15ec1707259098c1cfa45e63a748ccaade5b80688c8e0b381818c9c",
+  "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+  "adapterSha256": "1256a766a4b081e7e0b923a95d3ee0405bdf06164e6ecc97d697fea39eea8c34",
+  "adapterBytes": 17457044,
+  "trainableParametersReported": "0.282% (4.358M/1543.714M)"
+}

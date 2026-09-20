@@ -1,49 +1,51 @@
 # Culvert Cut
 
-**A WRIA 8 map of real fish-passage barriers, with explanations tied to official evidence.**
+**Can the evidence carry the claim? A locally trained fish-passage specialist that makes its sources—and its mistakes—inspectable.**
 
 ## Inspiration
 
-A crossing can look ordinary from the road and still matter enormously to a fish. Around Lake Sammamish, small streams connect neighborhoods to spawning habitat, yet the information explaining those connections is scattered across inventories, restoration reports, and water-quality assessments. The historical 2017–18 kokanee return of fewer than twenty adults makes that disconnect especially tangible. It is a historical warning, not a claim about today's population.
+“This culvert is passable” sounds reassuring. “Fish can reach every upstream spawning reach” sounds like the next logical sentence. But one official crossing record does not establish connectivity through an entire stream network. That small leap between a fact and a conclusion became our focus.
 
-Earth Forward led us to a deliberately local question: could a resident understand one crossing in under a minute and leave with a useful question for public works? We chose the Lake Washington–Cedar–Sammamish basin, WRIA 8, and kept the product focused on passage, habitat, and water quality.
+Around Lake Sammamish, culverts, warm water, and runoff affect the same connected habitat. The historical 2017–18 kokanee return of fewer than twenty adults makes the stakes tangible. We wanted an Earth Forward project that helps residents read local evidence carefully and ask a useful question about restoration, while giving judges a real machine-learning experiment they can inspect.
 
 ## What it does
 
-Culvert Cut is a dark, cartographic single-page application. Its bundled snapshot contains 1,931 real WDFW site records in WRIA 8. Users can filter for barriers, recorded fish use, culverts, or crossings within five kilometers of their location. Shape and color distinguish total barriers, partial barriers, passable sites, and unknown conditions.
+Culvert Cut opens with an interactive Evidence lab. A visitor reads a claim beside the exact official record supplied to the model. They choose supported, contradicted, or not established, then reveal the base and trained model responses side by side. Every test case remains available, including the specialist's failures. Raw outputs, citations, and downloadable evidence briefs make the comparison inspectable. A source-linked public-works question turns the check into a concrete next step.
 
-Selecting a crossing reveals its Site ID, stream, feature type, owner type, survey date, and available inventory fields. Missing information remains visible as unknown. A resident can copy a three-sentence public-works briefing, open the official report, or queue a mock photo report locally without sending anything.
+The public site contains clearly labeled recordings of actual model generations. A local mode runs new claims against any bundled site using the trained adapter, without an external language-model API. Its outputs remain interpretations of inventory evidence, not agency determinations.
 
-Additional layers show modeled coho habitat access and Ecology's 303(d) assessment areas. Twelve field notes introduce Zackuse Creek, Juanita Creek, the Sammamish River, driveway culverts, and highway versus city ownership. Story-only locations are labeled illustrative; they never become invented inventory records.
-
-Ask this basin retrieves official site fields and source snippets, then produces citation-backed explanations. The working default uses deterministic templates. A demo-rain toggle illustrates a clearly labeled first-flush heuristic, with no chemical sensor or live concentration claim.
+The basin map contains 1,931 real WDFW WRIA 8 records. Residents can filter barriers, recorded fish use, culverts, and nearby crossings; open original reports; copy a public-works briefing; and explore twelve field notes. Habitat and water-quality overlays show why one crossing is only part of the picture. Mock photo queuing stays on the device, and the first-flush reminder is explicitly a canned weather heuristic.
 
 ## How we built it
 
-The frontend uses Vite, React, TypeScript, and MapLibre GL. A Python pipeline queries ArcGIS object IDs, downloads bounded chunks, preserves source properties, and bundles GeoJSON so a failed service does not stop the presentation. We fetched King County's `wtrcrs_line`, `fp_cohointrinsicpotential_line`, and `fp_fishpassagesites_point`, alongside WDFW passage records and Ecology assessment geometry. County points are retained for inspection, without an unverified cross-inventory merge.
+The application uses Vite, React, TypeScript, and MapLibre GL. A reproducible Python pipeline downloads official ArcGIS records into bundled GeoJSON. Sources include WDFW fish-passage sites, Ecology's 303(d) assessment areas, and King County's `wtrcrs_line`, `fp_cohointrinsicpotential_line`, and `fp_fishpassagesites_point` layers.
 
-The Fish Passage Inventory, Assessment, and Prioritization Manual, published by WDFW in 2019, provides the assessment context. Habitat potential, passage at one structure, and access through an entire network are treated as different questions.
+The WDFW Fish Passage Inventory, Assessment, and Prioritization Manual, published in 2019, supplies assessment context. We preserve distinctions between fish use and observation, habitat potential and occupancy, and individual passability and network access.
 
-The model deliverable includes 3,027 instruction examples and forty site-disjoint validation examples. Training code uses Qwen2.5-0.5B-Instruct, PEFT LoRA, and TRL SFTTrainer, with rank sixteen, alpha thirty-two, and a maximum sequence length of 768. Optional local inference uses retrieved context and an extractive output gate. No external LLM API is called. No adapter training or model improvement is claimed for this delivery; the CPU-supported template path is the running demo.
+We fine-tuned Qwen2.5-1.5B-Instruct locally on an Apple M5 Pro using MLX. The rank-sixteen LoRA run completed 770 steps over a 3,078-example training set, with approximately 11.1 gigabytes of peak memory. The adapter is included in the repository. A separate CUDA PEFT and TRL training path is also supplied.
 
 ## Challenges
 
-The hardest problem was deciding what the data could actually support. A fish-use field does not establish a direct observation. A passable crossing does not prove an unobstructed route upstream. Nearby impairment geometry is not enough to assert that a specific crossing is listed. We left those joins unknown instead of hiding the gaps behind confident language.
+The central challenge was proving that training changed model behavior instead of merely adding a badge. We reserved forty unseen Site IDs for 120 claim-audit cases and another twenty sites for validation. Both models received identical context and instructions. We retained one raw greedy generation per case, without template repair or retries contributing to the score.
 
-Retrieval also needed testing. Loose substring matching could connect an unrelated question to part of a road name. Token-based matching made refusal behavior more reliable. Official identifiers sometimes contain spaces, which also shaped the held-out identifier checks.
+Citation formatting was another lesson. The base model returned empty arrays or source URLs instead of the requested Site ID strings. We report that as a format failure, separately from verdict correctness; it would be misleading to say those outputs contained no citations.
+
+An earlier half-billion-parameter experiment exposed weak explanations. We revised the training wording and used a 1.5B base, excluding the original test sites and reserving forty fresh sites for the final evaluation.
+
+Data gaps also mattered. We could not establish a verified upstream-network or site-to-303(d) join from the available snapshot. Those gaps remain visible rather than becoming confident model claims.
 
 ## Accomplishments
 
-The result is a usable map with real records, functioning filters, official links, source chips, and a specific resident action. It demonstrates the relationship between pipes, hot water, and runoff without turning them into a fabricated environmental score. The complete application runs without a GPU or model service.
+On our narrow, rule-labeled benchmark, correct verdicts increased from 40 of 120 for the base model to 116 of 120 after training: 33.3 percent to 96.7 percent. The adapter followed the required citation-array format in all 120 cases. All four wrong verdicts are public, and visitors can filter directly to them.
 
-The training dataset and evaluation pipeline are reproducible. Template checks cover forty held-out sites, while separate application checks exercise retrieval, filtering, and advisory logic. Those checks are not presented as evidence of trained-model accuracy.
+A separate forty-site explainer check found no invented Site IDs or missing expected citations. This is an identifier result, not proof that every generated explanation is correct. The working product combines those measured outcomes with official evidence, an accessible map, and a practical resident briefing.
 
 ## What we learned
 
-Environmental software becomes more useful when uncertainty is part of the interface. Showing “unknown” can be more informative than a polished but unsupported answer. We also learned that citation formatting alone does not guarantee grounding; optional generated text needs validation against the actual retrieved evidence.
+Small models can learn useful evidence-handling behavior, but a compelling score needs a precise definition. Our examples and reference labels are programmatic, not expert annotations, and held-out wording still belongs to related task families. Publishing the context and mistakes makes those limits easier to understand.
 
-This was a new, AI-assisted build. The implementation, datasets, tests, and drafts were created during the project, with that assistance documented transparently.
+This was a new, AI-assisted build. We also learned that “no CUDA” does not mean “no GPU”: using Apple silicon made actual local training possible.
 
 ## What's next
 
-Next steps are a reviewed upstream-network join, a verified site-to-assessment intersection, and local adapter training followed by factual evaluation beyond identifier checks. We would seek feedback from watershed practitioners and residents before expanding reporting or interpretation. The immediate invitation is simple: follow one stream, inspect one official record, and ask a better question about what comes next.
+Next steps are independent practitioner review, more varied claim benchmarks, verified spatial and stream-network joins, and evaluation of explanation correctness beyond labels. Our immediate invitation is simpler: inspect one crossing, challenge one conclusion, and follow the evidence before acting.

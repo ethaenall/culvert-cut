@@ -1,10 +1,14 @@
 """Local Qwen + optional adapter. Raw output must be grounded before UI display."""
-import argparse,json,os
+import argparse,json,os,platform
 from pathlib import Path
 from scripts.build_jsonl import SYSTEM
 ROOT=Path(__file__).resolve().parent
 class LocalModel:
  def __init__(self,base_only=False):
+  self.apple=None
+  if platform.system()=='Darwin' and platform.machine()=='arm64':
+   from specialist import Specialist
+   self.apple=Specialist(base_only);self.adapter_loaded=self.apple.adapter_loaded;return
   import torch
   from transformers import AutoModelForCausalLM,AutoTokenizer
   from peft import PeftModel,PeftConfig
@@ -14,6 +18,7 @@ class LocalModel:
   if self.adapter_loaded:self.model=PeftModel.from_pretrained(self.model,str(adapter))
   self.model.to('cuda' if torch.cuda.is_available() else 'cpu').eval()
  def answer(self,question,context):
+  if self.apple is not None:return self.apple.answer(question,context,max_tokens=220)
   import torch
   if not context:return "I don't know: no retrieved context. Consult WDFW. [WDFW]"
   messages=[{'role':'system','content':SYSTEM},{'role':'user','content':question+'\n\nContext:\n'+json.dumps(context,ensure_ascii=False)}]

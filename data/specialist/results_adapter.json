@@ -1,0 +1,2042 @@
+[
+  {
+    "id": "audit-001",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records partial.\",\"citations\":[\"936219\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "936219"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.807,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-002",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream classification.\",\"citations\":[\"936219\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream classification.",
+      "citations": [
+        "936219"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.966,
+    "correctVerdict": false,
+    "validCitations": true,
+    "passed": false
+  },
+  {
+    "id": "audit-003",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream connectivity assessment.\",\"citations\":[\"936219\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "936219"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.522,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-004",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"606845\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "606845"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.492,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-005",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"606845\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "606845"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.536,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-006",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"Fish use does not establish a direct fish observation.\",\"citations\":[\"606845\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "606845"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.554,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-007",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"602419\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "602419"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.518,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-008",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"602419\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "602419"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.595,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-009",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"No live chemical measurement is supplied.\",\"citations\":[\"602419\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "602419"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.568,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-010",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records partial.\",\"citations\":[\"132161502\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "132161502"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.633,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-011",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream classification.\",\"citations\":[\"132161502\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream classification.",
+      "citations": [
+        "132161502"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.717,
+    "correctVerdict": false,
+    "validCitations": true,
+    "passed": false
+  },
+  {
+    "id": "audit-012",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"A site-to-assessment intersection has not been verified.\",\"citations\":[\"132161502\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "132161502"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 1.311,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-013",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"08.0259   0.00\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "08.0259   0.00"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.916,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-014",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"08.0259   0.00\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "08.0259   0.00"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.819,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-015",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream connectivity assessment.\",\"citations\":[\"08.0259   0.00\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "08.0259   0.00"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.767,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-016",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"983074\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "983074"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.644,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-017",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"983074\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "983074"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.668,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-018",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"Fish use does not establish a direct fish observation.\",\"citations\":[\"983074\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "983074"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.69,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-019",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records total.\",\"citations\":[\"922167\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "922167"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.681,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-020",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says total, not passable.\",\"citations\":[\"922167\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "922167"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.838,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-021",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"No live chemical measurement is supplied.\",\"citations\":[\"922167\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "922167"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.798,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-022",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"606957\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "606957"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.747,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-023",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"606957\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "606957"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.746,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-024",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"A site-to-assessment intersection has not been verified.\",\"citations\":[\"606957\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "606957"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.732,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-025",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"605607\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "605607"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.653,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-026",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"605607\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "605607"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.712,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-027",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream connectivity assessment.\",\"citations\":[\"605607\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "605607"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.696,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-028",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"605475\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "605475"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.673,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-029",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"605475\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "605475"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.719,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-030",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"Fish use does not establish a direct fish observation.\",\"citations\":[\"605475\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "605475"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.761,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-031",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records partial.\",\"citations\":[\"934089\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "934089"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.749,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-032",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says partial, not total.\",\"citations\":[\"934089\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says partial, not total.",
+      "citations": [
+        "934089"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.847,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-033",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"No live chemical measurement is supplied.\",\"citations\":[\"934089\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "934089"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.78,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-034",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"700145\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "700145"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.743,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-035",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"700145\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "700145"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.749,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-036",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"A site-to-assessment intersection has not been verified.\",\"citations\":[\"700145\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "700145"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.736,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-037",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"994121\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "994121"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.672,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-038",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"994121\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "994121"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.737,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-039",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream connectivity assessment.\",\"citations\":[\"994121\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "994121"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.731,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-040",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records partial.\",\"citations\":[\"605083\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "605083"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.728,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-041",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says partial, not total.\",\"citations\":[\"605083\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says partial, not total.",
+      "citations": [
+        "605083"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.801,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-042",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"Fish use does not establish a direct fish observation.\",\"citations\":[\"605083\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "605083"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.84,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-043",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"982374\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "982374"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.784,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-044",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"982374\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "982374"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.808,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-045",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"No live chemical measurement is supplied.\",\"citations\":[\"982374\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "982374"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.754,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-046",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records unknown.\",\"citations\":[\"921603\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records unknown.",
+      "citations": [
+        "921603"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.691,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-047",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The status is unknown, so this passage classification is not established.\",\"citations\":[\"921603\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The status is unknown, so this passage classification is not established.",
+      "citations": [
+        "921603"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.8,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-048",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"A site-to-assessment intersection has not been verified.\",\"citations\":[\"921603\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "921603"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.753,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-049",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records total.\",\"citations\":[\"935006\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "935006"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.673,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-050",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says total, not passable.\",\"citations\":[\"935006\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "935006"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.552,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-051",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream connectivity assessment.\",\"citations\":[\"935006\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "935006"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.518,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-052",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"920066\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "920066"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.498,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-053",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"920066\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "920066"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.536,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-054",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"Fish use does not establish a direct fish observation.\",\"citations\":[\"920066\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "920066"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.533,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-055",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records total.\",\"citations\":[\"934881\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "934881"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.476,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-056",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says total, not passable.\",\"citations\":[\"934881\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "934881"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.533,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-057",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"No live chemical measurement is supplied.\",\"citations\":[\"934881\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "934881"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.488,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-058",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records partial.\",\"citations\":[\"935942\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "935942"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.477,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-059",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream classification.\",\"citations\":[\"935942\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream classification.",
+      "citations": [
+        "935942"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.505,
+    "correctVerdict": false,
+    "validCitations": true,
+    "passed": false
+  },
+  {
+    "id": "audit-060",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"A site-to-assessment intersection has not been verified.\",\"citations\":[\"935942\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "935942"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.551,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-061",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records total.\",\"citations\":[\"999602\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "999602"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.476,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-062",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says total, not passable.\",\"citations\":[\"999602\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "999602"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.541,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-063",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream connectivity assessment.\",\"citations\":[\"999602\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "999602"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.53,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-064",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records partial.\",\"citations\":[\"610123\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "610123"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.478,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-065",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says partial, not total.\",\"citations\":[\"610123\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says partial, not total.",
+      "citations": [
+        "610123"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.525,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-066",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"Fish use does not establish a direct fish observation.\",\"citations\":[\"610123\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "610123"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.529,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-067",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records total.\",\"citations\":[\"932323\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "932323"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.474,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-068",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says total, not passable.\",\"citations\":[\"932323\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "932323"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.528,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-069",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"No live chemical measurement is supplied.\",\"citations\":[\"932323\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "932323"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.489,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-070",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"983088\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "983088"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.489,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-071",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"983088\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "983088"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.533,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-072",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"A site-to-assessment intersection has not been verified.\",\"citations\":[\"983088\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "983088"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.552,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-073",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records partial.\",\"citations\":[\"998054\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records partial.",
+      "citations": [
+        "998054"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.481,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-074",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream classification.\",\"citations\":[\"998054\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream classification.",
+      "citations": [
+        "998054"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.511,
+    "correctVerdict": false,
+    "validCitations": true,
+    "passed": false
+  },
+  {
+    "id": "audit-075",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream connectivity assessment.\",\"citations\":[\"998054\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "998054"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.517,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-076",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records total.\",\"citations\":[\"932314\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "932314"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.474,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-077",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says total, not passable.\",\"citations\":[\"932314\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "932314"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.528,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-078",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"Fish use does not establish a direct fish observation.\",\"citations\":[\"932314\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "932314"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.533,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-079",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"605718\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "605718"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.488,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-080",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"605718\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "605718"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.532,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-081",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"No live chemical measurement is supplied.\",\"citations\":[\"605718\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "605718"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.493,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-082",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records unknown.\",\"citations\":[\"922697\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records unknown.",
+      "citations": [
+        "922697"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.483,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-083",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The status is unknown, so this passage classification is not established.\",\"citations\":[\"922697\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The status is unknown, so this passage classification is not established.",
+      "citations": [
+        "922697"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.581,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-084",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"A site-to-assessment intersection has not been verified.\",\"citations\":[\"922697\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "922697"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.549,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-085",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"602381\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "602381"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.494,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-086",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"602381\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "602381"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.529,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-087",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream connectivity assessment.\",\"citations\":[\"602381\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "602381"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.515,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-088",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"605664\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "605664"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.487,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-089",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"605664\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "605664"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.531,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-090",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"Fish use does not establish a direct fish observation.\",\"citations\":[\"605664\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "605664"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.534,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-091",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records total.\",\"citations\":[\"922791\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "922791"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.481,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-092",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says total, not passable.\",\"citations\":[\"922791\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "922791"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.533,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-093",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"No live chemical measurement is supplied.\",\"citations\":[\"922791\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "922791"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.497,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-094",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"931799\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "931799"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.493,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-095",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"931799\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "931799"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.531,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-096",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"A site-to-assessment intersection has not been verified.\",\"citations\":[\"931799\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "931799"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.541,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-097",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records total.\",\"citations\":[\"932416\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "932416"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.484,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-098",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says total, not passable.\",\"citations\":[\"932416\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "932416"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.545,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-099",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream connectivity assessment.\",\"citations\":[\"932416\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "932416"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.544,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-100",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"921477\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "921477"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.53,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-101",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"921477\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "921477"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.596,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-102",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"Fish use does not establish a direct fish observation.\",\"citations\":[\"921477\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "921477"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.598,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-103",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records total.\",\"citations\":[\"922691\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "922691"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.571,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-104",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says total, not passable.\",\"citations\":[\"922691\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "922691"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.627,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-105",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"No live chemical measurement is supplied.\",\"citations\":[\"922691\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "922691"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.587,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-106",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"609091\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "609091"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.572,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-107",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"609091\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "609091"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.607,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-108",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"A site-to-assessment intersection has not been verified.\",\"citations\":[\"609091\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "609091"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.601,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-109",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records total.\",\"citations\":[\"935946\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "935946"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.527,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-110",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says total, not passable.\",\"citations\":[\"935946\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "935946"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.578,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-111",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The snapshot has no verified upstream connectivity assessment.\",\"citations\":[\"935946\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The snapshot has no verified upstream connectivity assessment.",
+      "citations": [
+        "935946"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.573,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-112",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records unknown.\",\"citations\":[\"935054\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records unknown.",
+      "citations": [
+        "935054"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.529,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-113",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"The status is unknown, so this passage classification is not established.\",\"citations\":[\"935054\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "The status is unknown, so this passage classification is not established.",
+      "citations": [
+        "935054"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.64,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-114",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"Fish use does not establish a direct fish observation.\",\"citations\":[\"935054\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "Fish use does not establish a direct fish observation.",
+      "citations": [
+        "935054"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.611,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-115",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records total.\",\"citations\":[\"930877\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records total.",
+      "citations": [
+        "930877"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.562,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-116",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says total, not passable.\",\"citations\":[\"930877\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says total, not passable.",
+      "citations": [
+        "930877"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.631,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-117",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"No live chemical measurement is supplied.\",\"citations\":[\"930877\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "No live chemical measurement is supplied.",
+      "citations": [
+        "930877"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.595,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-118",
+    "raw": "{\"verdict\":\"supported\",\"reason\":\"The status field explicitly records passable.\",\"citations\":[\"922816\"]}",
+    "parsed": {
+      "verdict": "supported",
+      "reason": "The status field explicitly records passable.",
+      "citations": [
+        "922816"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.6,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-119",
+    "raw": "{\"verdict\":\"contradicted\",\"reason\":\"The record says passable, not total.\",\"citations\":[\"922816\"]}",
+    "parsed": {
+      "verdict": "contradicted",
+      "reason": "The record says passable, not total.",
+      "citations": [
+        "922816"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.649,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  },
+  {
+    "id": "audit-120",
+    "raw": "{\"verdict\":\"insufficient\",\"reason\":\"A site-to-assessment intersection has not been verified.\",\"citations\":[\"922816\"]}",
+    "parsed": {
+      "verdict": "insufficient",
+      "reason": "A site-to-assessment intersection has not been verified.",
+      "citations": [
+        "922816"
+      ]
+    },
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "benchmarkSha256": "77c8ed709b36c512697d06f6e80ef74f0cbcebaa7cca58acf30bbdef6b9aee7d",
+    "seconds": 0.67,
+    "correctVerdict": true,
+    "validCitations": true,
+    "passed": true
+  }
+]

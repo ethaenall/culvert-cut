@@ -5,6 +5,7 @@ test("desktop map, filters, drawer, local photo, rain, answers, and refusal", as
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/");
+  await page.getByRole("button", { name: "Explore the basin", exact: true }).click();
   await expect(page.getByText("Small crossings.")).toBeVisible();
   await expect(page.locator(".map")).toHaveAttribute("data-ready", "true");
   await page.waitForFunction(
@@ -62,6 +63,7 @@ test("desktop map, filters, drawer, local photo, rain, answers, and refusal", as
 test("mobile drawer, no horizontal overflow, sources", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/");
+  await page.getByRole("button", { name: "Explore the basin", exact: true }).click();
   await page.getByRole("button", { name: /01 Zackuse Creek/ }).click();
   await page.locator(".drawer").scrollIntoViewIfNeeded();
   await expect(page.locator(".drawer")).toBeVisible();
