@@ -395,7 +395,7 @@ export default function App() {
                 <p className="layer-note">
                   Access: <i className="accessible" /> accessible ·{" "}
                   <i className="partial" /> partial · <i className="total" />{" "}
-                  inaccessible. Potential is not observed fish presence.
+                  inaccessible · gray: unknown / no potential habitat. Thicker lines indicate higher coho potential. Most access values in this snapshot are missing or unrecognized; potential is not observed fish presence.
                 </p>
               )}
               {showImpaired && (
@@ -840,7 +840,7 @@ export default function App() {
               </div>
               <p>Sammamish River riparian planting · 41% of 2025 goal</p>
             </div>
-            {data.snippets.slice(0, 7).map((s) => (
+            {data.snippets.filter((s) => !s.id.startsWith("303(d)")).map((s) => (
               <a key={s.id} href={s.url} target="_blank" rel="noreferrer">
                 {s.id}
                 <ArrowUpRight size={14} />

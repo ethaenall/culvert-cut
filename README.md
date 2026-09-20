@@ -54,7 +54,7 @@ Sources for explanations:
 
 - [WDFW Fish Passage Inventory, Assessment, and Prioritization Manual (2019, 284 pages)](https://wdfw.wa.gov/publications/02061): assessment guidance and habitat-survey context; snippets are concise paraphrases, not invented page quotations.
 - [WRIA 8 2025 progress report](https://govlink.org/watersheds/8/reports/WRIA82025ProgressReport.pdf): 28.6 riparian acres planted against a 69-acre Sammamish River goal, approximately 41%.
-- [City of Sammamish Zackuse project](https://www.sammamish.us/projects/zacuse-creek-fish-passage-restoration/) and [historical King County kokanee emergency](https://kcemployees.com/2018/05/11/taking-emergency-action-to-prevent-the-possible-extinction-of-native-kokanee-salmon/): historical context, not current run counts. The supplied brief's citywide Wild Fish Conservancy assessment attribution was not independently verified and is not asserted as a completed data join.
+- [City of Sammamish Zackuse project](https://www.sammamish.us/projects/zacuse-creek-fish-passage-restoration/) and [historical King County kokanee emergency](https://kcemployees.com/2018/05/11/taking-emergency-action-to-prevent-the-possible-extinction-of-native-kokanee-salmon/): historical context, not current run counts. The [citywide barrier assessment](https://www.sammamish.us/projects/fish-passage-barrier-assessment/) confirms the City's partnership with Wild Fish Conservancy; its results are not joined to individual pins.
 - [Ecology 6PPD background](https://ecology.wa.gov/waste-toxics/reducing-toxic-chemicals/reducing-toxic-chemicals-washington/6ppd) and [King County sampling report](https://your.kingcounty.gov/dnrp/library/2024/kcr3832/kcr3832.pdf): toxicity and sampling context; no concentration measurement is generated.
 - [Ecology assessment explanation](https://ecology.wa.gov/water-shorelines/water-quality/water-improvement/assessment-303d-list): listings are assessments, not live readings.
 
@@ -62,7 +62,7 @@ Sources for explanations:
 
 **No adapter weights are bundled or claimed to be trained.** This machine's delivery uses the expressly supported CPU/RAG-only path. `adapter/.gitkeep` is not a trained model. The model work delivered is a domain dataset, executable LoRA training and inference code, held-out evaluator, and optional guarded API.
 
-The committed dataset has 3,024 train pairs and 40 validation pairs. Examples use a compact projection of actual official fields (not every raw property), source snippets, briefings, unknown/refusal cases, and same-stream contrasts. The system instruction matches the objective. Supervision is deterministic and templated, not expert annotation. The 40 held-out site IDs are excluded from every training context, including contrasts. Snapshot-derived facts should not be memorized as current conditions.
+The committed dataset has 3,027 train pairs and 40 validation pairs. Examples use a compact projection of actual official fields (not every raw property), source snippets, briefings, unknown/refusal cases, and same-stream contrasts. The system instruction matches the objective. Supervision is deterministic and templated, not expert annotation. The 40 held-out site IDs are excluded from every training context, including contrasts. Snapshot-derived facts should not be memorized as current conditions.
 
 ```sh
 python3.11 -m venv .venv
@@ -103,6 +103,8 @@ After training, run `python scripts/compare_models.py`. It records actual base a
 
 Weather is a labeled canned demonstration; photos are local mock reports. Story-only place coordinates are approximate and labeled “illustrative pin pending live join.” They do not create inventory sites or assign barrier status. A driveway is classified as a culvert; “driveway” comes from its recorded road name. Passable is not automatically corrected. The WDFW record's correction-years field is displayed when present.
 
+The coho overlay uses line thickness for the source `SCORE_02CF` potential score. Of 12,194 segments, 9,694 have null access, 2,439 have the undocumented value `No`, 58 say `No salmon habitat`, and three say `Inaccessible`. The undocumented `No` is treated as unknown, not silently translated into inaccessible. The source domain defines Accessible / Partially accessible, but this snapshot has no records carrying those values.
+
 Site-level 303(d) intersection, stream-network routing, piped length, named owners, fish observations, and species-specific access above are not established by the provided site schema. These remain unknown/not supplied. The impairment overlay renders official assessment polygons, including all parameters, rather than pretending polygon boundaries are exact stream centerlines. It is not a water-safety tool or engineering assessment. First-flush advice is a general runoff-reduction reminder, not a validated local risk forecast.
 
 MapLibre makes the JS bundle relatively large; OpenStreetMap public raster tiles carry attribution. The Google font has system-font fallbacks. No external imagery, proprietary GIS, private records, or secrets are included.
@@ -111,7 +113,7 @@ MapLibre makes the JS bundle relatively large; OpenStreetMap public raster tiles
 
 **Before:** no project source, dataset, app, or model work existed in this repository.
 
-**During:** app implementation, official snapshots, normalization, story/source curation, 3,024-pair dataset, training/inference/evaluation scripts, checks, and submission drafts were created for this build. AI-assisted implementation must be disclosed according to the event's rules. The repository does not assert that any particular student personally completed every step.
+**During:** app implementation, official snapshots, normalization, story/source curation, 3,027-pair dataset, training/inference/evaluation scripts, checks, and submission drafts were created for this build. AI-assisted implementation must be disclosed according to the event's rules. The repository does not assert that any particular student personally completed every step.
 
 ## Validation
 

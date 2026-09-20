@@ -154,7 +154,7 @@ export function answer(
   if (!r.sites.length && !r.snippets.length)
     return [
       {
-        text: "I don't know: no matching official record was retrieved. Check WDFW's inventory or search a Site ID or stream name.",
+        text: "I don't know: no matching official record was retrieved; check WDFW's inventory or search a Site ID or stream name.",
         cite: "WDFW inventory",
         url: "https://wdfw.wa.gov/species-habitats/habitat-recovery/fish-passage/assessment",
       },

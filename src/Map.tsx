@@ -131,9 +131,14 @@ export default function BasinMap({
             "#f0ca78",
             "Inaccessible",
             "#ea9175",
-            "#597479",
+            "No salmon habitat",
+            "#66717e",
+            "#a4aeb9",
           ],
-          "line-width": 3,
+          "line-width": [
+            "interpolate", ["linear"], ["coalesce", ["get", "SCORE_02CF"], 0],
+            0, 1, 1, 5,
+          ],
           "line-opacity": 0.85,
         },
       });

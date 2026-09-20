@@ -10,6 +10,10 @@ def emitted_ids(text):
  # Bare numeric inventory IDs are also suspicious, even without a Site prefix.
  ids.update(re.findall(r'(?<![\w.])\d{6,}(?:\.[0-9A-Za-z]+)?(?![\w.])',text))
  return {i.rstrip('.') for i in ids}
+def unknown_ids(text,known_id):
+ # Remove only whole identifiers: Site 9201219 must not be hidden by known 920121.
+ pattern=r'(?<![A-Za-z0-9_.-])'+re.escape(known_id)+r'(?![A-Za-z0-9_-]|\.[A-Za-z0-9])'
+ return emitted_ids(re.sub(pattern,'KNOWN_ID',text))
 def main():
  p=argparse.ArgumentParser();p.add_argument('--template',action='store_true',help='Evaluate deterministic reference only; does not score a model');p.add_argument('--base-only',action='store_true');a=p.parse_args()
  rows=json.loads((ROOT/'data/heldout_sites.json').read_text());assert len(rows)==40
@@ -21,8 +25,7 @@ def main():
  for s in rows:
   text=explainer(s) if a.template else model.answer('Explain this site. Never invent a Site ID.',s)
   # Remove the exact contextual identifier first: official IDs can contain spaces.
-  checked=text.replace(s['id'], 'KNOWN_ID')
-  unknown=sorted(emitted_ids(checked));results.append({'site':s['id'],'output':text,'unknownIds':unknown,'hasCitation':f"[{s['id']}]" in text})
+  unknown=sorted(unknown_ids(text,s['id']));results.append({'site':s['id'],'output':text,'unknownIds':unknown,'hasCitation':f"[{s['id']}]" in text})
  report={'mode':'template reference' if a.template else ('adapter' if model.adapter_loaded else 'base'),'evaluated':40,'failures':sum(bool(r['unknownIds']) for r in results),'missingCitations':sum(not r['hasCitation'] for r in results),'results':results}
  out=ROOT/'data'/('eval_template.json' if a.template else 'eval_model.json');out.write_text(json.dumps(report,indent=2));print(json.dumps({k:v for k,v in report.items() if k!='results'},indent=2));raise SystemExit(1 if report['failures'] or report['missingCitations'] else 0)
 if __name__=='__main__':main()

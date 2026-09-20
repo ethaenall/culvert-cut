@@ -37,7 +37,7 @@ def health():return {'mode':'adapter loaded' if model and model.adapter_loaded e
 def ask(body:Ask):
  global model
  sites,snippets=retrieve(body.question,body.context);allowed=supported(sites,snippets)
- if not allowed:return {'mode':'template fallback','sentences':[{'text':"I don't know: no matching official record was retrieved. Check WDFW's inventory.",'cite':'WDFW','url':'https://wdfw.wa.gov/species-habitats/habitat-recovery/fish-passage/assessment'}]}
+ if not allowed:return {'mode':'template fallback','sentences':[{'text':"I don't know: no matching official record was retrieved; check WDFW's inventory.",'cite':'WDFW','url':'https://wdfw.wa.gov/species-habitats/habitat-recovery/fish-passage/assessment'}]}
  with lock:
   try:
    if model is None:

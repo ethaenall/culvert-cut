@@ -24,7 +24,7 @@ The frontend uses Vite, React, TypeScript, and MapLibre GL. A Python pipeline qu
 
 The Fish Passage Inventory, Assessment, and Prioritization Manual, published by WDFW in 2019, provides the assessment context. Habitat potential, passage at one structure, and access through an entire network are treated as different questions.
 
-The model deliverable includes 3,024 instruction examples and forty site-disjoint validation examples. Training code uses Qwen2.5-0.5B-Instruct, PEFT LoRA, and TRL SFTTrainer, with rank sixteen, alpha thirty-two, and a maximum sequence length of 768. Optional local inference uses retrieved context and an extractive output gate. No external LLM API is called. No adapter training or model improvement is claimed for this delivery; the CPU-supported template path is the running demo.
+The model deliverable includes 3,027 instruction examples and forty site-disjoint validation examples. Training code uses Qwen2.5-0.5B-Instruct, PEFT LoRA, and TRL SFTTrainer, with rank sixteen, alpha thirty-two, and a maximum sequence length of 768. Optional local inference uses retrieved context and an extractive output gate. No external LLM API is called. No adapter training or model improvement is claimed for this delivery; the CPU-supported template path is the running demo.
 
 ## Challenges
 
